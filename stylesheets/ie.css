@@ -87,12 +87,58 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   clear: both;
 }
 
-/* line 19, ../sass/ie.scss */
+@keyframes smalls {
+  10% {
+    -webkit-transform: scale(0.7);
+    transform: scale(0.7);
+    opacity: 0.6;
+  }
+  80% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(0.7);
+    transform: scale(0.7);
+    opacity: 0.6;
+  }
+}
+@-webkit-keyframes smalls {
+  10% {
+    -webkit-transform: scale(0.7);
+    transform: scale(0.7);
+    opacity: 0.6;
+  }
+  80% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(0.7);
+    transform: scale(0.7);
+    opacity: 0.6;
+  }
+}
+/* line 53, ../sass/ie.scss */
+.active {
+  -webkit-animation-name: smalls;
+  animation-name: smalls;
+  -webkit-animation-duration: 0.7s;
+  animation-duration: 0.7s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+/* line 64, ../sass/ie.scss */
 #wrapper {
   width: 60%;
   margin: 20px auto;
 }
-/* line 24, ../sass/ie.scss */
+/* line 68, ../sass/ie.scss */
 #wrapper #header .resu {
   height: 150px;
   width: 150px;
@@ -111,17 +157,28 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   vertical-align: middle;
   color: #fff;
 }
-/* line 35, ../sass/ie.scss */
+/* line 79, ../sass/ie.scss */
 #wrapper #header .resu .re {
   font-family: "Microsoft yahei";
   font-size: 4em;
 }
-/* line 39, ../sass/ie.scss */
+/* line 83, ../sass/ie.scss */
 #wrapper #header .resu .su {
   font-family: "Microsoft yahei";
   font-size: 2.5em;
 }
-/* line 44, ../sass/ie.scss */
+/* line 87, ../sass/ie.scss */
+#wrapper #header .resu:hover {
+  -webkit-animation-name: smalls;
+  animation-name: smalls;
+  -webkit-animation-duration: 0.7s;
+  animation-duration: 0.7s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+/* line 98, ../sass/ie.scss */
 #wrapper #header .name {
   display: inline-block;
   vertical-align: middle;
@@ -130,18 +187,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   *display: inline;
   margin-left: 40px;
 }
-/* line 47, ../sass/ie.scss */
+/* line 101, ../sass/ie.scss */
 #wrapper #header .name .na {
   font-family: "Microsoft yahei";
   font-size: 2.5em;
 }
-/* line 51, ../sass/ie.scss */
+/* line 105, ../sass/ie.scss */
 #wrapper #header .name .web {
   font-family: "Microsoft yahei";
   color: #666;
   font-size: 2em;
 }
-/* line 57, ../sass/ie.scss */
+/* line 111, ../sass/ie.scss */
 #wrapper #header .pic {
   display: inline-block;
   vertical-align: middle;

@@ -16,10 +16,54 @@
 .clearfix:after {
     clear: both;
 }
+@keyframes smalls{
+    10%{
+      -webkit-transform: scale(0.7);
+      transform: scale(0.7);
+      opacity: 0.6;
+    }
+    80%{
+      -webkit-transform: scale(1.0);
+      transform: scale(1.0);
+      opacity: 1;
+    }
+    100%{
+      -webkit-transform: scale(0.7);
+      transform: scale(0.7);
+      opacity: 0.6;
+    }
+  }
+  @-webkit-keyframes smalls{
+    10%{
+      -webkit-transform: scale(0.7);
+      transform: scale(0.7);
+      opacity: 0.6;
+    }
+    80%{
+      -webkit-transform: scale(1.0);
+      transform: scale(1.0);
+      opacity: 1;
+    }
+    100%{
+      -webkit-transform: scale(0.7);
+      transform: scale(0.7);
+      opacity: 0.6;
+    }
+  }
+  .active{
+	-webkit-animation-name: smalls;
+    animation-name: smalls;
+    -webkit-animation-duration: 0.7s;
+    animation-duration: 0.7s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+
 #wrapper{
 	width:60%;
 	margin:20px auto;
-	// border:red solid 2px;
 	#header{
 		.resu{
 			height:150px;
@@ -39,6 +83,16 @@
 			.su{
 				font-family: "Microsoft yahei";
 				font-size: 2.5em;
+			}
+			&:hover{
+				-webkit-animation-name: smalls;
+			    animation-name: smalls;
+			    -webkit-animation-duration: 0.7s;
+			    animation-duration: 0.7s;
+			    -webkit-animation-timing-function: linear;
+			    animation-timing-function: linear;
+			    -webkit-animation-iteration-count: 1;
+			    animation-iteration-count: 1;
 			}
 		}
 		.name{
