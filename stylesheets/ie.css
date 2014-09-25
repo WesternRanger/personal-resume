@@ -68,3 +68,87 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding: 0;
   margin: 0;
 }
+
+/* line 7, ../sass/ie.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+/* line 10, ../sass/ie.scss */
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+/* line 16, ../sass/ie.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 19, ../sass/ie.scss */
+#wrapper {
+  width: 60%;
+  margin: 20px auto;
+}
+/* line 24, ../sass/ie.scss */
+#wrapper #header .resu {
+  height: 150px;
+  width: 150px;
+  -moz-border-radius: 150px;
+  -webkit-border-radius: 150px;
+  border-radius: 150px;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  background: blue;
+  transform: scale(1, 0.7);
+  text-align: center;
+  line-height: 150px;
+  vertical-align: middle;
+  color: #fff;
+}
+/* line 35, ../sass/ie.scss */
+#wrapper #header .resu .re {
+  font-family: "Microsoft yahei";
+  font-size: 4em;
+}
+/* line 39, ../sass/ie.scss */
+#wrapper #header .resu .su {
+  font-family: "Microsoft yahei";
+  font-size: 2.5em;
+}
+/* line 44, ../sass/ie.scss */
+#wrapper #header .name {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  margin-left: 40px;
+}
+/* line 47, ../sass/ie.scss */
+#wrapper #header .name .na {
+  font-family: "Microsoft yahei";
+  font-size: 2.5em;
+}
+/* line 51, ../sass/ie.scss */
+#wrapper #header .name .web {
+  font-family: "Microsoft yahei";
+  color: #666;
+  font-size: 2em;
+}
+/* line 57, ../sass/ie.scss */
+#wrapper #header .pic {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  width: 100px;
+  height: 140px;
+  float: right;
+}

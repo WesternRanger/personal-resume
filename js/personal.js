@@ -14,5 +14,5 @@ function _load(){
     test();
 }
 function test(){
-    alert("asdf");
+    // alert("asdf");
 }
