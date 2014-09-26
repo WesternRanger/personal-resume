@@ -1,8 +1,21 @@
 @import "compass/reset";
 @import "compass/css3";
+
 *{
 	padding:0;
 	margin:0;
+	font-family: microsoft yahei,tahoma,arial,\5b8b\4f53,sans-serif !important;
+	// font-family:microsoft yahei;
+}
+a{
+	text-decoration: none;
+	color: #85c51f;
+	&:hover{
+		color: #80bd1e;
+	}
+	&:active{
+		color: #7cb71d;
+	}
 }
 .clearfix{
     *zoom: 1;
@@ -60,16 +73,34 @@
     -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
 }
-
+@mixin dot($value:30px){
+	height:$value;
+	width:$value;
+	@include border-radius($value);
+	background:yellow;
+	@include inline-block;
+}
+.head{
+	font-size: 1.6em;
+	font-family: "Microsoft yahei";
+	margin-bottom:10px;
+}
+.left_box{
+	width:48%;
+	float:right;
+	margin-bottom: 10px;
+}
+.text_style{
+	font-size: .9em;
+	line-height: 20px;
+	color:#666;
+}
 
 #wrapper{
 	width:60%;
 	margin:20px auto;
-	padding:5px;
-	border:#e5e5e5 solid 2px;
+	// border:red solid 1px;
 	#header{
-		border:#e5e5e5 solid 2px;
-		padding:5px;
 		.resu{
 			height:150px;
 			width:150px;
@@ -82,11 +113,9 @@
 			vertical-align: middle;
 			color:#fff;
 			.re{
-				font-family: "Microsoft yahei";
 				font-size: 4em;
 			}
 			.su{
-				font-family: "Microsoft yahei";
 				font-size: 2.5em;
 			}
 			&:hover{
@@ -104,13 +133,12 @@
 			@include inline-block;
 			margin-left: 40px;
 			.na{
-				font-family: "Microsoft yahei";
 				font-size: 2.5em;
+				margin-bottom: 10px;
 			}
 			.web{
-				font-family: "Microsoft yahei";
 				color:#666;
-				font-size: 2em;
+				font-size: 1.7em;
 			}
 		}
 		.pic{
@@ -118,59 +146,72 @@
 			width:100px;
 			height:140px;
 			float: right;
+			margin-right:10px;
 		}
 	}
 	#content{
-		@mixin head{
-　　font-size: 1.6em;
-	font-family: "Microsoft yahei";
-	margin-bottom:10px;
-}
-		border:#e5e5e5 solid 2px;
-		padding:5px;
 		margin:20px auto;
+		width:90%;
 		.proj{
 			width:48%;
 			float:left;
-			border:#e5e5e5 solid 2px;
-			padding:5px;
 			.proj_head{
-				// font-size: 1.6em;
-				// font-family: "Microsoft yahei";
-				// margin-bottom:10px;
-				@include head;
+				@extend .head;
+				span{
+					@include dot(50px);
+					margin-left: -23px;
+				}
 			}
 			.proj_cont{
 				margin-bottom: 10px;
 				.proj_name{
 					margin-bottom: 10px;
+					a{
+						font-size: 1.2em;
+						@include inline-block;
+					}
 					span{
-						font-family: "Microsoft yahei";
+						@include dot(30px);
+						margin-left: -13px;
 						font-size: 1.2em;
 					}
 				}
 				p{
-					font-family: "Microsoft yahei";
-					font-size: .9em;
-					line-height: 20px;
+					border-left:5px solid yellow;
+					padding-left:15px;
+					@extend .text_style;
 				}
 				
 
 			}
 		}
-		.pers_info{
-			width:48%;
-			float:right;
-			border:#e5e5e5 solid 2px;
-			padding:5px;
-			.info_head{
-				font-size: 1.6em;
-				font-family: "Microsoft yahei";
-				margin-bottom:10px;
+		// right
+		.pers_info,
+		.prof_skill,
+		.get,
+		.work{
+			@extend .left_box;
+			.inner_head{
+				@extend .head;
+				span{
+					@include dot(50px);
+					margin-left: -23px;
+				}
+			}
+			ul{
+				@extend .text_style;
 			}
 		}
 	}
 	#footer{
-
+		.intro_name{
+			@extend .head;
+			span{
+				@include dot(50px);
+			}
+		}
+		p{
+			@extend .text_style;
+		}
 	}
 }
