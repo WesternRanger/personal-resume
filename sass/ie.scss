@@ -325,7 +325,7 @@ a{
 }
 
 #wrapper{
-	width:60%;
+	width:68%;
 	margin:80px auto;
 	#header{
 		.resu{
@@ -353,7 +353,9 @@ a{
 		.name{
 		  @include inline-block;
           padding:30px;
-          width:60%;
+          width:50%;
+          min-width: 100px;
+
 			.na{
 				font-size: 2.5em;
 				margin-bottom: 10px;
@@ -524,4 +526,223 @@ a{
           }
 		}
 	}
+}
+@media screen and (max-width: 960px) {
+  #wrapper{
+    width:80%;
+    margin:80px auto;
+    #header{
+      width:100%;
+      margin:auto;
+      .name{
+        width:40%;
+        padding:12px;
+        .na{
+          font-size:1.4em;
+        }
+        .web{
+          font-size:1em;
+        }
+      }
+    }
+    #content{
+      margin:20px auto;
+      width:90%;
+      .proj{
+        width:45%;
+      }
+      .pers_info,
+      .prof_skill,
+      .get,
+      .work{
+        width:50%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  #wrapper{
+    width:90%;
+    margin:80px auto;
+    #header{
+      width:70%;
+      margin:auto;
+      .resu{
+        display: none;
+      }
+      .name{
+        float:left;
+        width:60%;
+        padding:12px;
+        .na{
+          font-size:1.4em;
+        }
+        .web{
+          font-size:1em;
+        }
+      }
+      .pic{
+        float:right;
+        width:50px;
+        height: auto;
+        max-width:70;
+        display: block;
+      }
+    }
+    #content{
+      margin:20px auto;
+      width:90%;
+      .proj{
+        width:100%;
+        .proj_head{
+          font-size: 1.6em;
+          font-family: "Microsoft yahei";
+          margin:10px auto;
+          text-align: center;
+          span{
+            display: none;
+          }
+          a{
+            &:hover{
+              -webkit-animation-name: degs;
+              animation-name: degs;
+              -webkit-animation-duration: .2s;
+              animation-duration: .2s;
+              -webkit-animation-timing-function: linear;
+              animation-timing-function: linear;
+              -webkit-animation-iteration-count: 1;
+              animation-iteration-count: 1;
+            }
+          }
+        }
+        .proj_cont{
+          margin-bottom: 10px;
+          .proj_name{
+            margin-bottom: 10px;
+            a{
+              font-size: 1.2em;
+              @include inline-block;
+            }
+            span{
+              @include dot(20px,#d8ff66,-8px);
+            }
+            .url{
+              color: #a0d1b5;
+              &:hover{
+                text-decoration: underline;
+                color: #b9d125;
+                @include opacity(0.5);
+              }
+            }
+          }
+          p{
+            border-left:0;
+            padding-left:0;
+            font-size: .9em;
+            line-height: 25px;
+            color:#000;
+            text-indent: 1.5em;
+            span{
+              &:hover{
+                -webkit-animation-name: smalls;
+                animation-name: smalls;
+                -webkit-animation-duration: 0.7s;
+                animation-duration: 0.7s;
+                -webkit-animation-timing-function: linear;
+                animation-timing-function: linear;
+                -webkit-animation-iteration-count: 1;
+                animation-iteration-count: 1;
+              }
+            }
+          }
+        }
+      }
+      .pers_info,
+      .prof_skill,
+      .get,
+      .work{
+//        border:red solid 2px;
+        width:80%;
+//        float:none;
+        margin-bottom: 10px;
+        .inner_head{
+          text-align: center;
+          span{
+            display: none;
+          }
+          a{
+            &:hover{
+              -webkit-animation-name: degs;
+              animation-name: degs;
+              -webkit-animation-duration: .2s;
+              animation-duration: .2s;
+              -webkit-animation-timing-function: linear;
+              animation-timing-function: linear;
+              -webkit-animation-iteration-count: 1;
+              animation-iteration-count: 1;
+            }
+          }
+        }
+        ul{
+          li{
+            &:hover{
+              -webkit-animation-name: smalls;
+              animation-name: smalls;
+              -webkit-animation-duration: 0.7s;
+              animation-duration: 0.7s;
+              -webkit-animation-timing-function: linear;
+              animation-timing-function: linear;
+              -webkit-animation-iteration-count: 1;
+              animation-iteration-count: 1;
+            }
+            span{
+              @include dot(13px,#d8ff66,0);
+            }
+            a{
+              color: #a0d1b5;
+              &:hover{
+                text-decoration: underline;
+                color: #b9d125;
+                @include opacity(0.5);
+              }
+            }
+          }
+        }
+      }
+    }
+    #footer{
+      width:80%;
+      margin:auto;
+      .intro_name{
+        text-align: center;
+        span{
+          display: none;
+        }
+        a{
+          &:hover{
+            -webkit-animation-name: degs;
+            animation-name: degs;
+            -webkit-animation-duration: .2s;
+            animation-duration: .2s;
+            -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+            -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+          }
+        }
+      }
+      p{
+        &:hover{
+          -webkit-animation-name: smalls;
+          animation-name: smalls;
+          -webkit-animation-duration: 0.7s;
+          animation-duration: 0.7s;
+          -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+          -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+        }
+      }
+    }
+  }
 }
