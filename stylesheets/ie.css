@@ -104,73 +104,212 @@ a:active {
 
 @keyframes smalls {
   10% {
-    -webkit-transform: scale(0.7);
     transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+    -o-transform: scale(0.7);
     opacity: 0.4;
   }
   80% {
-    -webkit-transform: scale(1.3);
     transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    -o-transform: scale(1.3);
     opacity: .8;
   }
   100% {
-    -webkit-transform: scale(0.7);
     transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+    -o-transform: scale(0.7);
+    opacity: 0.4;
+  }
+}
+@-moz-keyframes smalls {
+  10% {
+    transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+    -o-transform: scale(0.7);
+    opacity: 0.4;
+  }
+  80% {
+    transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    opacity: .8;
+  }
+  100% {
+    transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+    -o-transform: scale(0.7);
     opacity: 0.4;
   }
 }
 @-webkit-keyframes smalls {
   10% {
-    -webkit-transform: scale(0.7);
     transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+    -o-transform: scale(0.7);
     opacity: 0.4;
   }
   80% {
+    transform: scale(1.3);
+    transform: scale(1.3);
     -webkit-transform: scale(1.3);
     transform: scale(1.3);
     opacity: .8;
   }
   100% {
-    -webkit-transform: scale(0.7);
     transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+    -o-transform: scale(0.7);
+    opacity: 0.4;
+  }
+}
+@-o-keyframes smalls {
+  10% {
+    transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+    -o-transform: scale(0.7);
+    opacity: 0.4;
+  }
+  80% {
+    transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    opacity: .8;
+  }
+  100% {
+    transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+    -o-transform: scale(0.7);
     opacity: 0.4;
   }
 }
 @keyframes degs {
   0% {
-    -webkit-transform: rotate(5deg);
     transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
     opacity: 0.7;
   }
   50% {
-    -webkit-transform: rotate(10deg);
     transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
     opacity: 0.4;
   }
   100% {
-    -webkit-transform: scale(5deg);
-    transform: scale(5deg);
+    transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    opacity: 0.7;
+  }
+}
+@-moz-keyframes degs {
+  0% {
+    transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    opacity: 0.7;
+  }
+  50% {
+    transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    opacity: 0.4;
+  }
+  100% {
+    transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
     opacity: 0.7;
   }
 }
 @-webkit-keyframes degs {
   0% {
-    -webkit-transform: rotate(5deg);
     transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
     opacity: 0.7;
   }
   50% {
-    -webkit-transform: rotate(10deg);
     transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
     opacity: 0.4;
   }
   100% {
-    -webkit-transform: scale(5deg);
     transform: scale(5deg);
+    -ms-transform: scale(5deg);
+    -moz-transform: scale(5deg);
+    -webkit-transform: scale(5deg);
+    -o-transform: scale(5deg);
     opacity: 0.7;
   }
 }
-/* line 101, ../sass/ie.scss */
+@-o-keyframes degs {
+  0% {
+    transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    opacity: 0.7;
+  }
+  50% {
+    transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    opacity: 0.4;
+  }
+  100% {
+    transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    opacity: 0.7;
+  }
+}
+/* line 240, ../sass/ie.scss */
 .active {
   -webkit-animation-name: smalls;
   animation-name: smalls;
@@ -182,7 +321,7 @@ a:active {
   animation-iteration-count: 1;
 }
 
-/* line 127, ../sass/ie.scss */
+/* line 258, ../sass/ie.scss */
 .head, #wrapper #content .proj .proj_head, #wrapper #content .pers_info .inner_head,
 #wrapper #content .prof_skill .inner_head,
 #wrapper #content .get .inner_head,
@@ -192,7 +331,7 @@ a:active {
   margin-bottom: 10px;
 }
 
-/* line 132, ../sass/ie.scss */
+/* line 263, ../sass/ie.scss */
 .left_box, #wrapper #content .pers_info,
 #wrapper #content .prof_skill,
 #wrapper #content .get,
@@ -202,23 +341,23 @@ a:active {
   margin-bottom: 10px;
 }
 
-/* line 137, ../sass/ie.scss */
+/* line 268, ../sass/ie.scss */
 .text_style, #wrapper #content .proj .proj_cont p, #wrapper #content .pers_info ul,
 #wrapper #content .prof_skill ul,
 #wrapper #content .get ul,
 #wrapper #content .work ul, #wrapper #footer p {
   font-size: .9em;
-  line-height: 20px;
-  color: #666;
+  line-height: 25px;
+  color: #000;
   text-indent: 1.5em;
 }
 
-/* line 144, ../sass/ie.scss */
+/* line 275, ../sass/ie.scss */
 #wrapper {
   width: 60%;
   margin: 80px auto;
 }
-/* line 148, ../sass/ie.scss */
+/* line 279, ../sass/ie.scss */
 #wrapper #header .resu {
   height: 150px;
   width: 150px;
@@ -237,15 +376,15 @@ a:active {
   vertical-align: middle;
   color: #fff;
 }
-/* line 159, ../sass/ie.scss */
+/* line 290, ../sass/ie.scss */
 #wrapper #header .resu .re {
   font-size: 4em;
 }
-/* line 162, ../sass/ie.scss */
+/* line 293, ../sass/ie.scss */
 #wrapper #header .resu .su {
   font-size: 2.5em;
 }
-/* line 166, ../sass/ie.scss */
+/* line 297, ../sass/ie.scss */
 #wrapper #header .name {
   display: inline-block;
   vertical-align: middle;
@@ -254,43 +393,40 @@ a:active {
   *display: inline;
   padding: 30px;
   width: 60%;
-  position: relative;
 }
-/* line 171, ../sass/ie.scss */
+/* line 301, ../sass/ie.scss */
 #wrapper #header .name .na {
   font-size: 2.5em;
   margin-bottom: 10px;
-  position: absolute;
   top: 0;
 }
-/* line 177, ../sass/ie.scss */
+/* line 306, ../sass/ie.scss */
 #wrapper #header .name .web {
   color: #666;
   font-size: 1.7em;
-  position: absolute;
   top: 50px;
 }
-/* line 184, ../sass/ie.scss */
+/* line 312, ../sass/ie.scss */
 #wrapper #header .pic {
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
   *zoom: 1;
   *display: inline;
-  width: 70px;
-  height: 90px;
+  width: 90px;
+  height: 120px;
 }
-/* line 191, ../sass/ie.scss */
+/* line 318, ../sass/ie.scss */
 #wrapper #content {
   margin: 20px auto;
   width: 90%;
 }
-/* line 194, ../sass/ie.scss */
+/* line 321, ../sass/ie.scss */
 #wrapper #content .proj {
   width: 45%;
   float: left;
 }
-/* line 199, ../sass/ie.scss */
+/* line 326, ../sass/ie.scss */
 #wrapper #content .proj .proj_head span {
   height: 40px;
   width: 40px;
@@ -305,7 +441,7 @@ a:active {
   *display: inline;
   margin-left: -19px;
 }
-/* line 203, ../sass/ie.scss */
+/* line 330, ../sass/ie.scss */
 #wrapper #content .proj .proj_head a:hover {
   -webkit-animation-name: degs;
   animation-name: degs;
@@ -316,15 +452,15 @@ a:active {
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
 }
-/* line 215, ../sass/ie.scss */
+/* line 342, ../sass/ie.scss */
 #wrapper #content .proj .proj_cont {
   margin-bottom: 10px;
 }
-/* line 217, ../sass/ie.scss */
+/* line 344, ../sass/ie.scss */
 #wrapper #content .proj .proj_cont .proj_name {
   margin-bottom: 10px;
 }
-/* line 219, ../sass/ie.scss */
+/* line 346, ../sass/ie.scss */
 #wrapper #content .proj .proj_cont .proj_name a {
   font-size: 1.2em;
   display: inline-block;
@@ -333,7 +469,7 @@ a:active {
   *zoom: 1;
   *display: inline;
 }
-/* line 223, ../sass/ie.scss */
+/* line 350, ../sass/ie.scss */
 #wrapper #content .proj .proj_cont .proj_name span {
   height: 20px;
   width: 20px;
@@ -348,24 +484,24 @@ a:active {
   *display: inline;
   margin-left: -8px;
 }
-/* line 226, ../sass/ie.scss */
+/* line 353, ../sass/ie.scss */
 #wrapper #content .proj .proj_cont .proj_name .url {
   color: #a0d1b5;
 }
-/* line 228, ../sass/ie.scss */
+/* line 355, ../sass/ie.scss */
 #wrapper #content .proj .proj_cont .proj_name .url:hover {
   text-decoration: underline;
   color: #b9d125;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
   opacity: 0.5;
 }
-/* line 235, ../sass/ie.scss */
+/* line 362, ../sass/ie.scss */
 #wrapper #content .proj .proj_cont p {
   border-left: 5px solid #ffe56b;
   padding-left: 15px;
 }
-/* line 239, ../sass/ie.scss */
-#wrapper #content .proj .proj_cont p:hover {
+/* line 367, ../sass/ie.scss */
+#wrapper #content .proj .proj_cont p span:hover {
   -webkit-animation-name: smalls;
   animation-name: smalls;
   -webkit-animation-duration: 0.7s;
@@ -375,7 +511,7 @@ a:active {
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
 }
-/* line 260, ../sass/ie.scss */
+/* line 389, ../sass/ie.scss */
 #wrapper #content .pers_info .inner_head span,
 #wrapper #content .prof_skill .inner_head span,
 #wrapper #content .get .inner_head span,
@@ -385,15 +521,15 @@ a:active {
   -moz-border-radius: 40px;
   -webkit-border-radius: 40px;
   border-radius: 40px;
-  background: #e0ff0e;
+  background: #d8ff66;
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
   *zoom: 1;
   *display: inline;
-  margin-left: -19px;
+  margin-left: -8px;
 }
-/* line 264, ../sass/ie.scss */
+/* line 393, ../sass/ie.scss */
 #wrapper #content .pers_info .inner_head a:hover,
 #wrapper #content .prof_skill .inner_head a:hover,
 #wrapper #content .get .inner_head a:hover,
@@ -407,14 +543,46 @@ a:active {
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
 }
-/* line 279, ../sass/ie.scss */
+/* line 408, ../sass/ie.scss */
+#wrapper #content .pers_info ul li:hover,
+#wrapper #content .prof_skill ul li:hover,
+#wrapper #content .get ul li:hover,
+#wrapper #content .work ul li:hover {
+  -webkit-animation-name: smalls;
+  animation-name: smalls;
+  -webkit-animation-duration: 0.7s;
+  animation-duration: 0.7s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+/* line 418, ../sass/ie.scss */
+#wrapper #content .pers_info ul li span,
+#wrapper #content .prof_skill ul li span,
+#wrapper #content .get ul li span,
+#wrapper #content .work ul li span {
+  height: 13px;
+  width: 13px;
+  -moz-border-radius: 13px;
+  -webkit-border-radius: 13px;
+  border-radius: 13px;
+  background: #d8ff66;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  margin-left: 0;
+}
+/* line 421, ../sass/ie.scss */
 #wrapper #content .pers_info ul li a,
 #wrapper #content .prof_skill ul li a,
 #wrapper #content .get ul li a,
 #wrapper #content .work ul li a {
   color: #a0d1b5;
 }
-/* line 281, ../sass/ie.scss */
+/* line 423, ../sass/ie.scss */
 #wrapper #content .pers_info ul li a:hover,
 #wrapper #content .prof_skill ul li a:hover,
 #wrapper #content .get ul li a:hover,
@@ -424,7 +592,11 @@ a:active {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
   opacity: 0.5;
 }
-/* line 294, ../sass/ie.scss */
+/* line 433, ../sass/ie.scss */
+#wrapper #content .work ul {
+  text-indent: 0em;
+}
+/* line 441, ../sass/ie.scss */
 #wrapper #footer .intro_name span {
   height: 40px;
   width: 40px;
@@ -439,12 +611,23 @@ a:active {
   *display: inline;
   margin-left: -19px;
 }
-/* line 298, ../sass/ie.scss */
+/* line 445, ../sass/ie.scss */
 #wrapper #footer .intro_name a:hover {
   -webkit-animation-name: degs;
   animation-name: degs;
   -webkit-animation-duration: .2s;
   animation-duration: .2s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+/* line 459, ../sass/ie.scss */
+#wrapper #footer p:hover {
+  -webkit-animation-name: smalls;
+  animation-name: smalls;
+  -webkit-animation-duration: 0.7s;
+  animation-duration: 0.7s;
   -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
   -webkit-animation-iteration-count: 1;
