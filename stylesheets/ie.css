@@ -128,6 +128,32 @@ a:active {
     opacity: 0.4;
   }
 }
+@-ms-keyframes smalls {
+  10% {
+    transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+    -o-transform: scale(0.7);
+    opacity: 0.4;
+  }
+  80% {
+    transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    opacity: .8;
+  }
+  100% {
+    transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+    -o-transform: scale(0.7);
+    opacity: 0.4;
+  }
+}
 @-moz-keyframes smalls {
   10% {
     transform: scale(0.7);
@@ -231,6 +257,32 @@ a:active {
     opacity: 0.7;
   }
 }
+@-ms-keyframes degs {
+  0% {
+    transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    opacity: 0.7;
+  }
+  50% {
+    transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    opacity: 0.4;
+  }
+  100% {
+    transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    opacity: 0.7;
+  }
+}
 @-moz-keyframes degs {
   0% {
     transform: rotate(5deg);
@@ -309,7 +361,7 @@ a:active {
     opacity: 0.7;
   }
 }
-/* line 240, ../sass/ie.scss */
+/* line 292, ../sass/ie.scss */
 .active {
   -webkit-animation-name: smalls;
   animation-name: smalls;
@@ -321,7 +373,7 @@ a:active {
   animation-iteration-count: 1;
 }
 
-/* line 258, ../sass/ie.scss */
+/* line 310, ../sass/ie.scss */
 .head, #wrapper #content .proj .proj_head, #wrapper #content .pers_info .inner_head,
 #wrapper #content .prof_skill .inner_head,
 #wrapper #content .get .inner_head,
@@ -331,7 +383,7 @@ a:active {
   margin-bottom: 10px;
 }
 
-/* line 263, ../sass/ie.scss */
+/* line 315, ../sass/ie.scss */
 .left_box, #wrapper #content .pers_info,
 #wrapper #content .prof_skill,
 #wrapper #content .get,
@@ -341,7 +393,7 @@ a:active {
   margin-bottom: 10px;
 }
 
-/* line 268, ../sass/ie.scss */
+/* line 320, ../sass/ie.scss */
 .text_style, #wrapper #content .proj .proj_cont p, #wrapper #content .pers_info ul,
 #wrapper #content .prof_skill ul,
 #wrapper #content .get ul,
@@ -352,12 +404,12 @@ a:active {
   text-indent: 1.5em;
 }
 
-/* line 275, ../sass/ie.scss */
+/* line 327, ../sass/ie.scss */
 #wrapper {
   width: 60%;
   margin: 80px auto;
 }
-/* line 279, ../sass/ie.scss */
+/* line 331, ../sass/ie.scss */
 #wrapper #header .resu {
   height: 150px;
   width: 150px;
@@ -371,20 +423,24 @@ a:active {
   *display: inline;
   background: #ffdf4a;
   transform: scale(1, 0.7);
+  -ms-transform: scale(1, 0.7);
+  -moz-transform: scale(1, 0.7);
+  -webkit-transform: scale(1, 0.7);
+  -o-transform: scale(1, 0.7);
   text-align: center;
   line-height: 150px;
   vertical-align: middle;
   color: #fff;
 }
-/* line 290, ../sass/ie.scss */
+/* line 346, ../sass/ie.scss */
 #wrapper #header .resu .re {
   font-size: 4em;
 }
-/* line 293, ../sass/ie.scss */
+/* line 349, ../sass/ie.scss */
 #wrapper #header .resu .su {
   font-size: 2.5em;
 }
-/* line 297, ../sass/ie.scss */
+/* line 353, ../sass/ie.scss */
 #wrapper #header .name {
   display: inline-block;
   vertical-align: middle;
@@ -394,19 +450,19 @@ a:active {
   padding: 30px;
   width: 60%;
 }
-/* line 301, ../sass/ie.scss */
+/* line 357, ../sass/ie.scss */
 #wrapper #header .name .na {
   font-size: 2.5em;
   margin-bottom: 10px;
   top: 0;
 }
-/* line 306, ../sass/ie.scss */
+/* line 362, ../sass/ie.scss */
 #wrapper #header .name .web {
   color: #666;
   font-size: 1.7em;
   top: 50px;
 }
-/* line 312, ../sass/ie.scss */
+/* line 368, ../sass/ie.scss */
 #wrapper #header .pic {
   display: inline-block;
   vertical-align: middle;
@@ -416,17 +472,17 @@ a:active {
   width: 90px;
   height: 120px;
 }
-/* line 318, ../sass/ie.scss */
+/* line 374, ../sass/ie.scss */
 #wrapper #content {
   margin: 20px auto;
   width: 90%;
 }
-/* line 321, ../sass/ie.scss */
+/* line 377, ../sass/ie.scss */
 #wrapper #content .proj {
   width: 45%;
   float: left;
 }
-/* line 326, ../sass/ie.scss */
+/* line 382, ../sass/ie.scss */
 #wrapper #content .proj .proj_head span {
   height: 40px;
   width: 40px;
@@ -441,7 +497,7 @@ a:active {
   *display: inline;
   margin-left: -19px;
 }
-/* line 330, ../sass/ie.scss */
+/* line 386, ../sass/ie.scss */
 #wrapper #content .proj .proj_head a:hover {
   -webkit-animation-name: degs;
   animation-name: degs;
@@ -452,15 +508,15 @@ a:active {
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
 }
-/* line 342, ../sass/ie.scss */
+/* line 398, ../sass/ie.scss */
 #wrapper #content .proj .proj_cont {
   margin-bottom: 10px;
 }
-/* line 344, ../sass/ie.scss */
+/* line 400, ../sass/ie.scss */
 #wrapper #content .proj .proj_cont .proj_name {
   margin-bottom: 10px;
 }
-/* line 346, ../sass/ie.scss */
+/* line 402, ../sass/ie.scss */
 #wrapper #content .proj .proj_cont .proj_name a {
   font-size: 1.2em;
   display: inline-block;
@@ -469,7 +525,7 @@ a:active {
   *zoom: 1;
   *display: inline;
 }
-/* line 350, ../sass/ie.scss */
+/* line 406, ../sass/ie.scss */
 #wrapper #content .proj .proj_cont .proj_name span {
   height: 20px;
   width: 20px;
@@ -484,23 +540,23 @@ a:active {
   *display: inline;
   margin-left: -8px;
 }
-/* line 353, ../sass/ie.scss */
+/* line 409, ../sass/ie.scss */
 #wrapper #content .proj .proj_cont .proj_name .url {
   color: #a0d1b5;
 }
-/* line 355, ../sass/ie.scss */
+/* line 411, ../sass/ie.scss */
 #wrapper #content .proj .proj_cont .proj_name .url:hover {
   text-decoration: underline;
   color: #b9d125;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
   opacity: 0.5;
 }
-/* line 362, ../sass/ie.scss */
+/* line 418, ../sass/ie.scss */
 #wrapper #content .proj .proj_cont p {
   border-left: 5px solid #ffe56b;
   padding-left: 15px;
 }
-/* line 367, ../sass/ie.scss */
+/* line 423, ../sass/ie.scss */
 #wrapper #content .proj .proj_cont p span:hover {
   -webkit-animation-name: smalls;
   animation-name: smalls;
@@ -511,7 +567,7 @@ a:active {
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
 }
-/* line 389, ../sass/ie.scss */
+/* line 445, ../sass/ie.scss */
 #wrapper #content .pers_info .inner_head span,
 #wrapper #content .prof_skill .inner_head span,
 #wrapper #content .get .inner_head span,
@@ -529,7 +585,7 @@ a:active {
   *display: inline;
   margin-left: -8px;
 }
-/* line 393, ../sass/ie.scss */
+/* line 449, ../sass/ie.scss */
 #wrapper #content .pers_info .inner_head a:hover,
 #wrapper #content .prof_skill .inner_head a:hover,
 #wrapper #content .get .inner_head a:hover,
@@ -543,7 +599,7 @@ a:active {
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
 }
-/* line 408, ../sass/ie.scss */
+/* line 464, ../sass/ie.scss */
 #wrapper #content .pers_info ul li:hover,
 #wrapper #content .prof_skill ul li:hover,
 #wrapper #content .get ul li:hover,
@@ -557,7 +613,7 @@ a:active {
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
 }
-/* line 418, ../sass/ie.scss */
+/* line 474, ../sass/ie.scss */
 #wrapper #content .pers_info ul li span,
 #wrapper #content .prof_skill ul li span,
 #wrapper #content .get ul li span,
@@ -575,14 +631,14 @@ a:active {
   *display: inline;
   margin-left: 0;
 }
-/* line 421, ../sass/ie.scss */
+/* line 477, ../sass/ie.scss */
 #wrapper #content .pers_info ul li a,
 #wrapper #content .prof_skill ul li a,
 #wrapper #content .get ul li a,
 #wrapper #content .work ul li a {
   color: #a0d1b5;
 }
-/* line 423, ../sass/ie.scss */
+/* line 479, ../sass/ie.scss */
 #wrapper #content .pers_info ul li a:hover,
 #wrapper #content .prof_skill ul li a:hover,
 #wrapper #content .get ul li a:hover,
@@ -592,11 +648,11 @@ a:active {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
   opacity: 0.5;
 }
-/* line 433, ../sass/ie.scss */
+/* line 489, ../sass/ie.scss */
 #wrapper #content .work ul {
   text-indent: 0em;
 }
-/* line 441, ../sass/ie.scss */
+/* line 497, ../sass/ie.scss */
 #wrapper #footer .intro_name span {
   height: 40px;
   width: 40px;
@@ -611,7 +667,7 @@ a:active {
   *display: inline;
   margin-left: -19px;
 }
-/* line 445, ../sass/ie.scss */
+/* line 501, ../sass/ie.scss */
 #wrapper #footer .intro_name a:hover {
   -webkit-animation-name: degs;
   animation-name: degs;
@@ -622,7 +678,7 @@ a:active {
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
 }
-/* line 459, ../sass/ie.scss */
+/* line 515, ../sass/ie.scss */
 #wrapper #footer p:hover {
   -webkit-animation-name: smalls;
   animation-name: smalls;
