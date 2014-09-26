@@ -61,10 +61,15 @@
     animation-iteration-count: 1;
 }
 
+
 #wrapper{
 	width:60%;
 	margin:20px auto;
+	padding:5px;
+	border:#e5e5e5 solid 2px;
 	#header{
+		border:#e5e5e5 solid 2px;
+		padding:5px;
 		.resu{
 			height:150px;
 			width:150px;
@@ -116,7 +121,54 @@
 		}
 	}
 	#content{
+		@mixin head{
+　　font-size: 1.6em;
+	font-family: "Microsoft yahei";
+	margin-bottom:10px;
+}
+		border:#e5e5e5 solid 2px;
+		padding:5px;
+		margin:20px auto;
+		.proj{
+			width:48%;
+			float:left;
+			border:#e5e5e5 solid 2px;
+			padding:5px;
+			.proj_head{
+				// font-size: 1.6em;
+				// font-family: "Microsoft yahei";
+				// margin-bottom:10px;
+				@include head;
+			}
+			.proj_cont{
+				margin-bottom: 10px;
+				.proj_name{
+					margin-bottom: 10px;
+					span{
+						font-family: "Microsoft yahei";
+						font-size: 1.2em;
+					}
+				}
+				p{
+					font-family: "Microsoft yahei";
+					font-size: .9em;
+					line-height: 20px;
+				}
+				
 
+			}
+		}
+		.pers_info{
+			width:48%;
+			float:right;
+			border:#e5e5e5 solid 2px;
+			padding:5px;
+			.info_head{
+				font-size: 1.6em;
+				font-family: "Microsoft yahei";
+				margin-bottom:10px;
+			}
+		}
 	}
 	#footer{
 
