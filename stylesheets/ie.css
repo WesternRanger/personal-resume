@@ -163,7 +163,7 @@ a:active {
 #wrapper #content .prof_skill,
 #wrapper #content .get,
 #wrapper #content .work {
-  width: 48%;
+  width: 45%;
   float: right;
   margin-bottom: 10px;
 }
@@ -176,14 +176,15 @@ a:active {
   font-size: .9em;
   line-height: 20px;
   color: #666;
+  text-indent: 1.5em;
 }
 
-/* line 99, ../sass/ie.scss */
+/* line 100, ../sass/ie.scss */
 #wrapper {
   width: 60%;
   margin: 20px auto;
 }
-/* line 104, ../sass/ie.scss */
+/* line 105, ../sass/ie.scss */
 #wrapper #header .resu {
   height: 150px;
   width: 150px;
@@ -202,15 +203,15 @@ a:active {
   vertical-align: middle;
   color: #fff;
 }
-/* line 115, ../sass/ie.scss */
+/* line 116, ../sass/ie.scss */
 #wrapper #header .resu .re {
   font-size: 4em;
 }
-/* line 118, ../sass/ie.scss */
+/* line 119, ../sass/ie.scss */
 #wrapper #header .resu .su {
   font-size: 2.5em;
 }
-/* line 121, ../sass/ie.scss */
+/* line 122, ../sass/ie.scss */
 #wrapper #header .resu:hover {
   -webkit-animation-name: smalls;
   animation-name: smalls;
@@ -221,7 +222,7 @@ a:active {
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
 }
-/* line 132, ../sass/ie.scss */
+/* line 133, ../sass/ie.scss */
 #wrapper #header .name {
   display: inline-block;
   vertical-align: middle;
@@ -230,17 +231,17 @@ a:active {
   *display: inline;
   margin-left: 40px;
 }
-/* line 135, ../sass/ie.scss */
+/* line 136, ../sass/ie.scss */
 #wrapper #header .name .na {
   font-size: 2.5em;
   margin-bottom: 10px;
 }
-/* line 139, ../sass/ie.scss */
+/* line 140, ../sass/ie.scss */
 #wrapper #header .name .web {
   color: #666;
   font-size: 1.7em;
 }
-/* line 144, ../sass/ie.scss */
+/* line 145, ../sass/ie.scss */
 #wrapper #header .pic {
   display: inline-block;
   vertical-align: middle;
@@ -252,17 +253,17 @@ a:active {
   float: right;
   margin-right: 10px;
 }
-/* line 152, ../sass/ie.scss */
+/* line 153, ../sass/ie.scss */
 #wrapper #content {
   margin: 20px auto;
   width: 90%;
 }
-/* line 155, ../sass/ie.scss */
+/* line 156, ../sass/ie.scss */
 #wrapper #content .proj {
-  width: 48%;
+  width: 45%;
   float: left;
 }
-/* line 160, ../sass/ie.scss */
+/* line 161, ../sass/ie.scss */
 #wrapper #content .proj .proj_head span {
   height: 50px;
   width: 50px;
@@ -277,15 +278,15 @@ a:active {
   *display: inline;
   margin-left: -23px;
 }
-/* line 165, ../sass/ie.scss */
+/* line 166, ../sass/ie.scss */
 #wrapper #content .proj .proj_cont {
   margin-bottom: 10px;
 }
-/* line 167, ../sass/ie.scss */
+/* line 168, ../sass/ie.scss */
 #wrapper #content .proj .proj_cont .proj_name {
   margin-bottom: 10px;
 }
-/* line 169, ../sass/ie.scss */
+/* line 170, ../sass/ie.scss */
 #wrapper #content .proj .proj_cont .proj_name a {
   font-size: 1.2em;
   display: inline-block;
@@ -294,7 +295,7 @@ a:active {
   *zoom: 1;
   *display: inline;
 }
-/* line 173, ../sass/ie.scss */
+/* line 174, ../sass/ie.scss */
 #wrapper #content .proj .proj_cont .proj_name span {
   height: 30px;
   width: 30px;
@@ -310,12 +311,12 @@ a:active {
   margin-left: -13px;
   font-size: 1.2em;
 }
-/* line 179, ../sass/ie.scss */
+/* line 180, ../sass/ie.scss */
 #wrapper #content .proj .proj_cont p {
   border-left: 5px solid yellow;
   padding-left: 15px;
 }
-/* line 196, ../sass/ie.scss */
+/* line 197, ../sass/ie.scss */
 #wrapper #content .pers_info .inner_head span,
 #wrapper #content .prof_skill .inner_head span,
 #wrapper #content .get .inner_head span,
@@ -333,7 +334,7 @@ a:active {
   *display: inline;
   margin-left: -23px;
 }
-/* line 209, ../sass/ie.scss */
+/* line 210, ../sass/ie.scss */
 #wrapper #footer .intro_name span {
   height: 50px;
   width: 50px;

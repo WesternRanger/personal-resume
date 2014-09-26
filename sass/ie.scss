@@ -86,7 +86,7 @@ a{
 	margin-bottom:10px;
 }
 .left_box{
-	width:48%;
+	width:45%;
 	float:right;
 	margin-bottom: 10px;
 }
@@ -94,6 +94,7 @@ a{
 	font-size: .9em;
 	line-height: 20px;
 	color:#666;
+	text-indent: 1.5em;
 }
 
 #wrapper{
@@ -153,7 +154,7 @@ a{
 		margin:20px auto;
 		width:90%;
 		.proj{
-			width:48%;
+			width:45%;
 			float:left;
 			.proj_head{
 				@extend .head;
