@@ -5,7 +5,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/fcd617c15cd0096dc3834a00913870450c36113a/ie.scssc" afterPath="$PROJECT_DIR$/.sass-cache/fcd617c15cd0096dc3834a00913870450c36113a/ie.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/ie.css" afterPath="$PROJECT_DIR$/stylesheets/ie.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/ie.scss" afterPath="$PROJECT_DIR$/sass/ie.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/personal_resume.html" afterPath="$PROJECT_DIR$/personal_resume.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="personal-resume.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,7 +31,7 @@
       <file leaf-file-name="personal_resume.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/personal_resume.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="25" selection-start="239" selection-end="239" vertical-scroll-proportion="41.25" vertical-offset="1782" max-vertical-offset="5454">
+            <state line="11" column="25" selection-start="239" selection-end="239" vertical-scroll-proportion="9.75" vertical-offset="648" max-vertical-offset="5454">
               <folding />
             </state>
           </provider>
@@ -40,14 +40,10 @@
       <file leaf-file-name="ie.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/ie.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="566" column="0" selection-start="12942" selection-end="12942" vertical-scroll-proportion="0.40992647" vertical-offset="14087" max-vertical-offset="15282">
+            <state line="570" column="12" selection-start="13052" selection-end="13052" vertical-scroll-proportion="0.5036765" vertical-offset="15116" max-vertical-offset="16794">
               <folding>
-                <element signature="e#12423#12941#0" expanded="false" />
-                <element signature="e#12435#12939#0" expanded="false" />
-                <element signature="e#12486#12690#0" expanded="false" />
-                <element signature="e#13041#13441#0" expanded="false" />
-                <element signature="e#13823#13967#0" expanded="false" />
-                <element signature="e#13985#14132#0" expanded="false" />
+                <element signature="e#13765#13909#0" expanded="false" />
+                <element signature="e#13927#14074#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -111,6 +107,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -131,7 +128,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -140,18 +136,10 @@
     <property name="options.lastSelected" value="preferences.general" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -160,6 +148,14 @@
       <option name="saveOutputToFile" value="false" />
       <option name="showConsoleOnStdErr" value="false" />
       <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
@@ -221,6 +217,23 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/personal_resume.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="25" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0" vertical-offset="1782" max-vertical-offset="5454">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/ie.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="566" column="0" selection-start="12942" selection-end="12942" vertical-scroll-proportion="0.0" vertical-offset="15282" max-vertical-offset="15282">
+          <folding>
+            <element signature="e#13765#13909#0" expanded="false" />
+            <element signature="e#13927#14074#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personal_resume.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="137" column="26" selection-start="4254" selection-end="4254" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5454">
           <folding />
         </state>
@@ -230,12 +243,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="499" column="43" selection-start="11516" selection-end="11516" vertical-scroll-proportion="0.0" vertical-offset="12987" max-vertical-offset="20331">
           <folding>
-            <element signature="e#12423#12941#0" expanded="false" />
-            <element signature="e#12435#12939#0" expanded="false" />
-            <element signature="e#12486#12690#0" expanded="false" />
-            <element signature="e#13041#13441#0" expanded="false" />
-            <element signature="e#13823#13967#0" expanded="false" />
-            <element signature="e#13985#14132#0" expanded="false" />
+            <element signature="e#13765#13909#0" expanded="false" />
+            <element signature="e#13927#14074#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -251,12 +260,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="546" column="5" selection-start="12691" selection-end="12691" vertical-scroll-proportion="0.0" vertical-offset="14742" max-vertical-offset="16713">
           <folding>
-            <element signature="e#12423#12941#0" expanded="false" />
-            <element signature="e#12435#12939#0" expanded="false" />
-            <element signature="e#12486#12690#0" expanded="false" />
-            <element signature="e#13041#13441#0" expanded="false" />
-            <element signature="e#13823#13967#0" expanded="false" />
-            <element signature="e#13985#14132#0" expanded="false" />
+            <element signature="e#13765#13909#0" expanded="false" />
+            <element signature="e#13927#14074#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -283,21 +288,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/personal_resume.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="25" selection-start="239" selection-end="239" vertical-scroll-proportion="41.25" vertical-offset="1782" max-vertical-offset="5454">
+        <state line="11" column="25" selection-start="239" selection-end="239" vertical-scroll-proportion="9.75" vertical-offset="648" max-vertical-offset="5454">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/ie.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="566" column="0" selection-start="12942" selection-end="12942" vertical-scroll-proportion="0.40992647" vertical-offset="14087" max-vertical-offset="15282">
+        <state line="570" column="12" selection-start="13052" selection-end="13052" vertical-scroll-proportion="0.5036765" vertical-offset="15116" max-vertical-offset="16794">
           <folding>
-            <element signature="e#12423#12941#0" expanded="false" />
-            <element signature="e#12435#12939#0" expanded="false" />
-            <element signature="e#12486#12690#0" expanded="false" />
-            <element signature="e#13041#13441#0" expanded="false" />
-            <element signature="e#13823#13967#0" expanded="false" />
-            <element signature="e#13985#14132#0" expanded="false" />
+            <element signature="e#13765#13909#0" expanded="false" />
+            <element signature="e#13927#14074#0" expanded="false" />
           </folding>
         </state>
       </provider>

@@ -325,7 +325,7 @@ a{
 }
 
 #wrapper{
-	width:68%;
+	width:60%;
 	margin:80px auto;
 	#header{
 		.resu{
@@ -353,24 +353,21 @@ a{
 		.name{
 		  @include inline-block;
           padding:30px;
-          width:50%;
-          min-width: 100px;
-
 			.na{
 				font-size: 2.5em;
 				margin-bottom: 10px;
-                top:0;
 			}
 			.web{
 				color:#666;
 				font-size: 1.7em;
-                top:50px;
 			}
 		}
 		.pic{
 			@include inline-block;
 			width:90px;
 			height:120px;
+            float:right;
+            margin-right: 20px;
 		}
 	}
 	#content{
@@ -535,7 +532,6 @@ a{
       width:90%;
       margin:auto;
       .name{
-        width:40%;
         padding:12px;
         .na{
           font-size:1.4em;
@@ -567,6 +563,7 @@ a{
 @media screen and (max-width: 600px) {
   #wrapper{
     width:90%;
+    min-width: 400px;
     margin:30px auto;
     #header{
       width:90%;
@@ -576,18 +573,17 @@ a{
       }
       .name{
         float:left;
-        width:50%;
         padding:12px;
         .na{
           font-size:1.8em;
         }
         .web{
-          font-size:1.2em;
+          font-size:0.8em;
         }
       }
       .pic{
         float:right;
-        width:80px;
+        width:70px;
         height: auto;
         max-width:100;
         display: block;
