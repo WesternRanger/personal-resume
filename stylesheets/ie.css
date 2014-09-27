@@ -666,7 +666,7 @@ a:active {
   *vertical-align: auto;
   *zoom: 1;
   *display: inline;
-  margin-left: -19px;
+  margin-left: 30px;
 }
 /* line 503, ../sass/ie.scss */
 #wrapper #footer .intro_name a:hover {

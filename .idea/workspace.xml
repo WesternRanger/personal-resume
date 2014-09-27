@@ -32,11 +32,8 @@
       <file leaf-file-name="personal_resume.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/personal_resume.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="23" selection-start="967" selection-end="967" vertical-scroll-proportion="-11.25" vertical-offset="594" max-vertical-offset="5400">
-              <folding>
-                <element signature="tag#div#3;tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#4;tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-              </folding>
+            <state line="137" column="26" selection-start="4254" selection-end="4254" vertical-scroll-proportion="-11.25" vertical-offset="3294" max-vertical-offset="5454">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -44,13 +41,8 @@
       <file leaf-file-name="ie.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/ie.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="546" column="5" selection-start="12691" selection-end="12691" vertical-scroll-proportion="0.21875" vertical-offset="14272" max-vertical-offset="16713">
-              <folding>
-                <element signature="e#12486#12691#0" expanded="false" />
-                <element signature="e#12987#13384#0" expanded="false" />
-                <element signature="e#13451#15299#0" expanded="false" />
-                <element signature="e#16779#17716#0" expanded="false" />
-              </folding>
+            <state line="499" column="43" selection-start="11516" selection-end="11516" vertical-scroll-proportion="0.8933824" vertical-offset="12987" max-vertical-offset="20331">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -141,18 +133,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="preferences.general" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="options.searchVisible" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -161,6 +146,14 @@
       <option name="saveOutputToFile" value="false" />
       <option name="showConsoleOnStdErr" value="false" />
       <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
@@ -189,23 +182,23 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22254759" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -220,53 +213,51 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/大三的WebStormWorkSpace/jsProject/htmlExam.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="62" selection-start="1004" selection-end="1054" vertical-scroll-proportion="2.7297795" vertical-offset="0" max-vertical-offset="4482">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/workHardOnJS/人人网面试题.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="18" selection-start="184" selection-end="184" vertical-scroll-proportion="127.5" vertical-offset="4860" max-vertical-offset="7992">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/workHardOnJS/统计测试.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="42" selection-start="240" selection-end="240" vertical-scroll-proportion="0.3970588" vertical-offset="0" max-vertical-offset="2133">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/workHardOnJS/新统计测试.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="13" selection-start="2406" selection-end="2529" vertical-scroll-proportion="0.4466912" vertical-offset="1701" max-vertical-offset="2565">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/personal_resume.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="23" selection-start="967" selection-end="967" vertical-scroll-proportion="-11.25" vertical-offset="594" max-vertical-offset="5400">
-          <folding>
-            <element signature="tag#div#3;tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#4;tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
+        <state line="37" column="23" selection-start="967" selection-end="967" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5886">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/ie.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="546" column="5" selection-start="12691" selection-end="12691" vertical-scroll-proportion="0.21875" vertical-offset="14272" max-vertical-offset="16713">
-          <folding>
-            <element signature="e#12486#12691#0" expanded="false" />
-            <element signature="e#12987#13384#0" expanded="false" />
-            <element signature="e#13451#15299#0" expanded="false" />
-            <element signature="e#16779#17716#0" expanded="false" />
-          </folding>
+        <state line="546" column="5" selection-start="12691" selection-end="12691" vertical-scroll-proportion="0.0" vertical-offset="14742" max-vertical-offset="16713">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/大三的WebStormWorkSpace/jsProject/htmlExam.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="62" selection-start="1004" selection-end="1054" vertical-scroll-proportion="2.7297795" vertical-offset="0" max-vertical-offset="4482" />
+      </provider>
+    </entry>
+    <entry file="file://D:/workHardOnJS/人人网面试题.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="18" selection-start="184" selection-end="184" vertical-scroll-proportion="127.5" vertical-offset="4860" max-vertical-offset="7992" />
+      </provider>
+    </entry>
+    <entry file="file://D:/workHardOnJS/统计测试.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="42" selection-start="240" selection-end="240" vertical-scroll-proportion="0.3970588" vertical-offset="0" max-vertical-offset="2133" />
+      </provider>
+    </entry>
+    <entry file="file://D:/workHardOnJS/新统计测试.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="13" selection-start="2406" selection-end="2529" vertical-scroll-proportion="0.4466912" vertical-offset="1701" max-vertical-offset="2565" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personal_resume.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="137" column="26" selection-start="4254" selection-end="4254" vertical-scroll-proportion="-11.25" vertical-offset="3294" max-vertical-offset="5454">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/ie.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="499" column="43" selection-start="11516" selection-end="11516" vertical-scroll-proportion="0.8933824" vertical-offset="12987" max-vertical-offset="20331">
+          <folding />
         </state>
       </provider>
     </entry>

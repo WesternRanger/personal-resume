@@ -497,7 +497,7 @@ a{
 		.intro_name{
 			@extend .head;
 			span{
-				@include dot(40px,#e0ff0e,-19px);
+				@include dot(40px,#e0ff0e,30px);
 			}
           a{
             &:hover{
