@@ -1,18 +1,18 @@
-/* line 41, ../sass/defined.scss */
+/* line 30, ../sass/defined.scss */
 .head {
   font-size: 1.6em;
   font-family: "Microsoft yahei";
   margin-bottom: 10px;
 }
 
-/* line 46, ../sass/defined.scss */
+/* line 35, ../sass/defined.scss */
 .left_box {
   width: 45%;
   float: right;
   margin-bottom: 10px;
 }
 
-/* line 51, ../sass/defined.scss */
+/* line 40, ../sass/defined.scss */
 .text_style {
   font-size: .9em;
   line-height: 25px;

@@ -11,41 +11,22 @@
 			@include border-radius(150px);
 			@include inline-block;
 			background: #ffdf4a;
-			transform: scale(1,0.7);
-            -ms-transform: scale(1,0.7);
-            -moz-transform: scale(1,0.7);
-            -webkit-transform: scale(1,0.7);
-            -o-transform: scale(1,0.7);
+          transform: scale(1,0.7);
+          -ms-transform: scale(1,0.7);
+          -moz-transform: scale(1,0.7);
+          -webkit-transform: scale(1,0.7);
+          -o-transform: scale(1,0.7);
 			text-align: center;
 			line-height: 150px;
 			vertical-align: middle;
 			color:#fff;
-            @include _animation(xDeg,4s,linear,3s,infinite,alternate);
-//            -webkit-animation-name: xDeg;
-//            animation-name: xDeg;
-//            -ms-animation-name: xDeg;
-//            -moz-animation-name: xDeg;
-//            -o-animation-name: xDeg;
-//            -webkit-animation-duration: 4s;
-//            animation-duration: 4s;
-//            -ms-animation-duration: 4s;
-//            -moz-animation-duration: 4s;
-//            -o-animation-duration: 4s;
-//            -webkit-animation-timing-function: linear;
-//            animation-timing-function: linear;
-//            -ms-animation-timing-function: linear;
-//            -moz-animation-timing-function: linear;
-//            -o-animation-timing-function: linear;
-//            -webkit-animation-iteration-count: infinite;
-//            animation-iteration-count: infinite;
-//            -ms-animation-iteration-count: infinite;
-//            -moz-animation-iteration-count: infinite;
-//            -o-animation-iteration-count: infinite;
 			.re{
 				font-size: 4em;
+              @include _animation(yDeg,2s,linear,3s,infinite,alternate);
 			}
 			.su{
 				font-size: 2.5em;
+              @include _animation(yDeg,2s,linear,3s,infinite,alternate);
 			}
 		}
 		.name{
@@ -54,32 +35,12 @@
 			.na{
 				font-size: 2.5em;
 				margin-bottom: 10px;
+                @include _animation(xDeg,4s,linear,3s,infinite,alternate);
 			}
 			.web{
 				color:#666;
 				font-size: 1.7em;
-                &:hover{
-                  -webkit-animation-name: yDeg;
-                  animation-name: yDeg;
-                  -ms-animation-name: yDeg;
-                  -moz-animation-name: yDeg;
-                  -o-animation-name: yDeg;
-                  -webkit-animation-duration: .7s;
-                  animation-duration: .7s;
-                  -ms-animation-duration: .7s;
-                  -moz-animation-duration: .7s;
-                  -o-animation-duration: .7s;
-                  -webkit-animation-timing-function: linear;
-                  animation-timing-function: linear;
-                  -ms-animation-timing-function: linear;
-                  -moz-animation-timing-function: linear;
-                  -o-animation-timing-function: linear;
-                  -webkit-animation-iteration-count: 1;
-                  animation-iteration-count: 1;
-                  -ms-animation-iteration-count: 1;
-                  -moz-animation-iteration-count: 1;
-                  -o-animation-iteration-count: 1;
-                }
+                @include _opacity(_opacity,2s,linear,0s,infinite,alternate);
 			}
 		}
 		.pic{
@@ -88,6 +49,7 @@
 			height:120px;
             float:right;
             margin-right: 20px;
+            @include _run(_run,4s,linear,0s,1,alternate);
 		}
 	}
 	#content{
@@ -103,26 +65,7 @@
 				}
                 a{
                   &:hover{
-                    -webkit-animation-name: degs;
-                    animation-name: degs;
-                    -ms-animation-name: degs;
-                    -moz-animation-name: degs;
-                    -o-animation-name: degs;
-                    -webkit-animation-duration: .2s;
-                    animation-duration: .2s;
-                    -ms-animation-duration: .2s;
-                    -moz-animation-duration: .2s;
-                    -o-animation-duration: .2s;
-                    -webkit-animation-timing-function: linear;
-                    animation-timing-function: linear;
-                    -ms-animation-timing-function: linear;
-                    -moz-animation-timing-function: linear;
-                    -o-animation-timing-function: linear;
-                    -webkit-animation-iteration-count: 1;
-                    animation-iteration-count: 1;
-                    -ms-animation-iteration-count: 1;
-                    -moz-animation-iteration-count: 1;
-                    -o-animation-iteration-count: 1;
+                    @include _animation(degs,0.2s,linear,0,1,alternate);
                   }
                 }
 			}
@@ -152,26 +95,7 @@
 					@extend .text_style;
                   span{
                     &:hover{
-                      -webkit-animation-name: smalls;
-                      animation-name: smalls;
-                      -ms-animation-name: smalls;
-                      -moz-animation-name: smalls;
-                      -o-animation-name: smalls;
-                      -webkit-animation-duration: .7s;
-                      animation-duration: .7s;
-                      -ms-animation-duration: .7s;
-                      -moz-animation-duration: .7s;
-                      -o-animation-duration: .7s;
-                      -webkit-animation-timing-function: linear;
-                      animation-timing-function: linear;
-                      -ms-animation-timing-function: linear;
-                      -moz-animation-timing-function: linear;
-                      -o-animation-timing-function: linear;
-                      -webkit-animation-iteration-count: 1;
-                      animation-iteration-count: 1;
-                      -ms-animation-iteration-count: 1;
-                      -moz-animation-iteration-count: 1;
-                      -o-animation-iteration-count: 1;
+                      @include _animation(smalls,0.7s,linear,0,1,alternate);
                     }
                   }
 				}
@@ -190,26 +114,7 @@
 				}
               a{
                 &:hover{
-                  -webkit-animation-name: degs;
-                  animation-name: degs;
-                  -ms-animation-name: degs;
-                  -moz-animation-name: degs;
-                  -o-animation-name: degs;
-                  -webkit-animation-duration: .2s;
-                  animation-duration: .2s;
-                  -ms-animation-duration: .2s;
-                  -moz-animation-duration: .2s;
-                  -o-animation-duration: .2s;
-                  -webkit-animation-timing-function: linear;
-                  animation-timing-function: linear;
-                  -ms-animation-timing-function: linear;
-                  -moz-animation-timing-function: linear;
-                  -o-animation-timing-function: linear;
-                  -webkit-animation-iteration-count: 1;
-                  animation-iteration-count: 1;
-                  -ms-animation-iteration-count: 1;
-                  -moz-animation-iteration-count: 1;
-                  -o-animation-iteration-count: 1;
+                  @include _animation(degs,0.2s,linear,0,1,alternate);
                 }
               }
 			}
@@ -217,26 +122,7 @@
 				@extend .text_style;
               li{
                 &:hover{
-                  -webkit-animation-name: smalls;
-                  animation-name: smalls;
-                  -ms-animation-name: smalls;
-                  -moz-animation-name: smalls;
-                  -o-animation-name: smalls;
-                  -webkit-animation-duration: .7s;
-                  animation-duration: .7s;
-                  -ms-animation-duration: .7s;
-                  -moz-animation-duration: .7s;
-                  -o-animation-duration: .7s;
-                  -webkit-animation-timing-function: linear;
-                  animation-timing-function: linear;
-                  -ms-animation-timing-function: linear;
-                  -moz-animation-timing-function: linear;
-                  -o-animation-timing-function: linear;
-                  -webkit-animation-iteration-count: 1;
-                  animation-iteration-count: 1;
-                  -ms-animation-iteration-count: 1;
-                  -moz-animation-iteration-count: 1;
-                  -o-animation-iteration-count: 1;
+                  @include _animation(smalls,0.7s,linear,0,1,alternate);
                 }
                 span{
                   @include dot(13px,#d8ff66,0);
@@ -266,52 +152,14 @@
 			}
           a{
             &:hover{
-              -webkit-animation-name: degs;
-              animation-name: degs;
-              -ms-animation-name: degs;
-              -moz-animation-name: degs;
-              -o-animation-name: degs;
-              -webkit-animation-duration: .2s;
-              animation-duration: .2s;
-              -ms-animation-duration: .2s;
-              -moz-animation-duration: .2s;
-              -o-animation-duration: .2s;
-              -webkit-animation-timing-function: linear;
-              animation-timing-function: linear;
-              -ms-animation-timing-function: linear;
-              -moz-animation-timing-function: linear;
-              -o-animation-timing-function: linear;
-              -webkit-animation-iteration-count: 1;
-              animation-iteration-count: 1;
-              -ms-animation-iteration-count: 1;
-              -moz-animation-iteration-count: 1;
-              -o-animation-iteration-count: 1;
+              @include _animation(degs,0.2s,linear,0,1,alternate);
             }
           }
 		}
 		p{
 			@extend .text_style;
           &:hover{
-            -webkit-animation-name: smalls;
-            animation-name: smalls;
-            -ms-animation-name: smalls;
-            -moz-animation-name: smalls;
-            -o-animation-name: smalls;
-            -webkit-animation-duration: .7s;
-            animation-duration: .7s;
-            -ms-animation-duration: .7s;
-            -moz-animation-duration: .7s;
-            -o-animation-duration: .7s;
-            -webkit-animation-timing-function: linear;
-            animation-timing-function: linear;
-            -ms-animation-timing-function: linear;
-            -moz-animation-timing-function: linear;
-            -o-animation-timing-function: linear;
-            -webkit-animation-iteration-count: 1;
-            animation-iteration-count: 1;
-            -ms-animation-iteration-count: 1;
-            -moz-animation-iteration-count: 1;
-            -o-animation-iteration-count: 1;
+            @include _animation(smalls,0.7s,linear,0,1,alternate);
           }
 		}
 	}
