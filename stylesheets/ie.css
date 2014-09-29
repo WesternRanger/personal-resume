@@ -1,107 +1,3 @@
-/* line 5, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font: inherit;
-  font-size: 100%;
-  vertical-align: baseline;
-}
-
-/* line 22, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
-html {
-  line-height: 1;
-}
-
-/* line 24, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
-ol, ul {
-  list-style: none;
-}
-
-/* line 26, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-/* line 28, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
-caption, th, td {
-  text-align: left;
-  font-weight: normal;
-  vertical-align: middle;
-}
-
-/* line 30, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
-q, blockquote {
-  quotes: none;
-}
-/* line 103, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
-q:before, q:after, blockquote:before, blockquote:after {
-  content: "";
-  content: none;
-}
-
-/* line 32, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
-a img {
-  border: none;
-}
-
-/* line 116, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
-article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
-  display: block;
-}
-
-/* line 4, ../sass/ie.scss */
-* {
-  padding: 0;
-  margin: 0;
-  font-family: microsoft yahei,tahoma,arial,\5b8b\4f53,sans-serif !important;
-}
-
-/* line 10, ../sass/ie.scss */
-a {
-  text-decoration: none;
-  color: #85c51f;
-}
-/* line 13, ../sass/ie.scss */
-a:hover {
-  color: #80bd1e;
-}
-/* line 16, ../sass/ie.scss */
-a:active {
-  color: #7cb71d;
-}
-
-/* line 20, ../sass/ie.scss */
-.clearfix {
-  *zoom: 1;
-}
-
-/* line 23, ../sass/ie.scss */
-.clearfix:before,
-.clearfix:after {
-  display: table;
-  line-height: 0;
-  content: "";
-}
-
-/* line 29, ../sass/ie.scss */
-.clearfix:after {
-  clear: both;
-}
-
 @keyframes smalls {
   10% {
     transform: scale(0.7);
@@ -786,19 +682,111 @@ a:active {
     -o-transform: rotateY(360deg);
   }
 }
-/* line 629, ../sass/ie.scss */
-.active {
-  -webkit-animation-name: smalls;
-  animation-name: smalls;
-  -webkit-animation-duration: 0.7s;
-  animation-duration: 0.7s;
-  -webkit-animation-timing-function: linear;
-  animation-timing-function: linear;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
+/* line 5, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
 }
 
-/* line 647, ../sass/ie.scss */
+/* line 22, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 3, ../sass/setFirst.scss */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: microsoft yahei,tahoma,arial,\5b8b\4f53,sans-serif !important;
+}
+
+/* line 9, ../sass/setFirst.scss */
+a {
+  text-decoration: none;
+  color: #85c51f;
+}
+/* line 12, ../sass/setFirst.scss */
+a:hover {
+  color: #80bd1e;
+}
+/* line 15, ../sass/setFirst.scss */
+a:active {
+  color: #7cb71d;
+}
+
+/* line 19, ../sass/setFirst.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+/* line 22, ../sass/setFirst.scss */
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+/* line 28, ../sass/setFirst.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 41, ../sass/defined.scss */
 .head, #wrapper #content .proj .proj_head, #wrapper #content .pers_info .inner_head,
 #wrapper #content .prof_skill .inner_head,
 #wrapper #content .get .inner_head,
@@ -808,7 +796,7 @@ a:active {
   margin-bottom: 10px;
 }
 
-/* line 652, ../sass/ie.scss */
+/* line 46, ../sass/defined.scss */
 .left_box, #wrapper #content .pers_info,
 #wrapper #content .prof_skill,
 #wrapper #content .get,
@@ -818,7 +806,7 @@ a:active {
   margin-bottom: 10px;
 }
 
-/* line 657, ../sass/ie.scss */
+/* line 51, ../sass/defined.scss */
 .text_style, #wrapper #content .proj .proj_cont p, #wrapper #content .pers_info ul,
 #wrapper #content .prof_skill ul,
 #wrapper #content .get ul,
@@ -829,12 +817,12 @@ a:active {
   text-indent: 1.5em;
 }
 
-/* line 664, ../sass/ie.scss */
+/* line 4, ../sass/ie.scss */
 #wrapper {
   width: 60%;
   margin: 80px auto;
 }
-/* line 668, ../sass/ie.scss */
+/* line 8, ../sass/ie.scss */
 #wrapper #header .resu {
   height: 150px;
   width: 150px;
@@ -871,21 +859,31 @@ a:active {
   -ms-animation-timing-function: linear;
   -moz-animation-timing-function: linear;
   -o-animation-timing-function: linear;
+  animation-delay: 3s;
+  -webkit-animation-delay: 3s;
+  -ms-animation-delay: 3s;
+  -moz-animation-delay: 3s;
+  -o-animation-delay: 3s;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
   -ms-animation-iteration-count: infinite;
   -moz-animation-iteration-count: infinite;
   -o-animation-iteration-count: infinite;
+  animation-direction: alternate;
+  -ms-animation-direction: alternate;
+  -moz-animation-direction: alternate;
+  -webkit-animation-direction: alternate;
+  -o-animation-direction: alternate;
 }
-/* line 703, ../sass/ie.scss */
+/* line 44, ../sass/ie.scss */
 #wrapper #header .resu .re {
   font-size: 4em;
 }
-/* line 706, ../sass/ie.scss */
+/* line 47, ../sass/ie.scss */
 #wrapper #header .resu .su {
   font-size: 2.5em;
 }
-/* line 710, ../sass/ie.scss */
+/* line 51, ../sass/ie.scss */
 #wrapper #header .name {
   display: inline-block;
   vertical-align: middle;
@@ -894,17 +892,17 @@ a:active {
   *display: inline;
   padding: 30px;
 }
-/* line 713, ../sass/ie.scss */
+/* line 54, ../sass/ie.scss */
 #wrapper #header .name .na {
   font-size: 2.5em;
   margin-bottom: 10px;
 }
-/* line 717, ../sass/ie.scss */
+/* line 58, ../sass/ie.scss */
 #wrapper #header .name .web {
   color: #666;
   font-size: 1.7em;
 }
-/* line 720, ../sass/ie.scss */
+/* line 61, ../sass/ie.scss */
 #wrapper #header .name .web:hover {
   -webkit-animation-name: yDeg;
   animation-name: yDeg;
@@ -927,7 +925,7 @@ a:active {
   -moz-animation-iteration-count: 1;
   -o-animation-iteration-count: 1;
 }
-/* line 744, ../sass/ie.scss */
+/* line 85, ../sass/ie.scss */
 #wrapper #header .pic {
   display: inline-block;
   vertical-align: middle;
@@ -939,17 +937,17 @@ a:active {
   float: right;
   margin-right: 20px;
 }
-/* line 752, ../sass/ie.scss */
+/* line 93, ../sass/ie.scss */
 #wrapper #content {
   margin: 20px auto;
   width: 90%;
 }
-/* line 755, ../sass/ie.scss */
+/* line 96, ../sass/ie.scss */
 #wrapper #content .proj {
   width: 45%;
   float: left;
 }
-/* line 760, ../sass/ie.scss */
+/* line 101, ../sass/ie.scss */
 #wrapper #content .proj .proj_head span {
   height: 40px;
   width: 40px;
@@ -964,7 +962,7 @@ a:active {
   *display: inline;
   margin-left: -19px;
 }
-/* line 764, ../sass/ie.scss */
+/* line 105, ../sass/ie.scss */
 #wrapper #content .proj .proj_head a:hover {
   -webkit-animation-name: degs;
   animation-name: degs;
@@ -987,15 +985,15 @@ a:active {
   -moz-animation-iteration-count: 1;
   -o-animation-iteration-count: 1;
 }
-/* line 788, ../sass/ie.scss */
+/* line 129, ../sass/ie.scss */
 #wrapper #content .proj .proj_cont {
   margin-bottom: 10px;
 }
-/* line 790, ../sass/ie.scss */
+/* line 131, ../sass/ie.scss */
 #wrapper #content .proj .proj_cont .proj_name {
   margin-bottom: 10px;
 }
-/* line 792, ../sass/ie.scss */
+/* line 133, ../sass/ie.scss */
 #wrapper #content .proj .proj_cont .proj_name a {
   font-size: 1.2em;
   display: inline-block;
@@ -1004,7 +1002,7 @@ a:active {
   *zoom: 1;
   *display: inline;
 }
-/* line 796, ../sass/ie.scss */
+/* line 137, ../sass/ie.scss */
 #wrapper #content .proj .proj_cont .proj_name span {
   height: 20px;
   width: 20px;
@@ -1019,23 +1017,23 @@ a:active {
   *display: inline;
   margin-left: -8px;
 }
-/* line 799, ../sass/ie.scss */
+/* line 140, ../sass/ie.scss */
 #wrapper #content .proj .proj_cont .proj_name .url {
   color: #a0d1b5;
 }
-/* line 801, ../sass/ie.scss */
+/* line 142, ../sass/ie.scss */
 #wrapper #content .proj .proj_cont .proj_name .url:hover {
   text-decoration: underline;
   color: #b9d125;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
   opacity: 0.5;
 }
-/* line 808, ../sass/ie.scss */
+/* line 149, ../sass/ie.scss */
 #wrapper #content .proj .proj_cont p {
   border-left: 5px solid #ffe56b;
   padding-left: 15px;
 }
-/* line 813, ../sass/ie.scss */
+/* line 154, ../sass/ie.scss */
 #wrapper #content .proj .proj_cont p span:hover {
   -webkit-animation-name: smalls;
   animation-name: smalls;
@@ -1058,7 +1056,7 @@ a:active {
   -moz-animation-iteration-count: 1;
   -o-animation-iteration-count: 1;
 }
-/* line 847, ../sass/ie.scss */
+/* line 188, ../sass/ie.scss */
 #wrapper #content .pers_info .inner_head span,
 #wrapper #content .prof_skill .inner_head span,
 #wrapper #content .get .inner_head span,
@@ -1076,7 +1074,7 @@ a:active {
   *display: inline;
   margin-left: -8px;
 }
-/* line 851, ../sass/ie.scss */
+/* line 192, ../sass/ie.scss */
 #wrapper #content .pers_info .inner_head a:hover,
 #wrapper #content .prof_skill .inner_head a:hover,
 #wrapper #content .get .inner_head a:hover,
@@ -1102,7 +1100,7 @@ a:active {
   -moz-animation-iteration-count: 1;
   -o-animation-iteration-count: 1;
 }
-/* line 878, ../sass/ie.scss */
+/* line 219, ../sass/ie.scss */
 #wrapper #content .pers_info ul li:hover,
 #wrapper #content .prof_skill ul li:hover,
 #wrapper #content .get ul li:hover,
@@ -1128,7 +1126,7 @@ a:active {
   -moz-animation-iteration-count: 1;
   -o-animation-iteration-count: 1;
 }
-/* line 900, ../sass/ie.scss */
+/* line 241, ../sass/ie.scss */
 #wrapper #content .pers_info ul li span,
 #wrapper #content .prof_skill ul li span,
 #wrapper #content .get ul li span,
@@ -1146,14 +1144,14 @@ a:active {
   *display: inline;
   margin-left: 0;
 }
-/* line 903, ../sass/ie.scss */
+/* line 244, ../sass/ie.scss */
 #wrapper #content .pers_info ul li a,
 #wrapper #content .prof_skill ul li a,
 #wrapper #content .get ul li a,
 #wrapper #content .work ul li a {
   color: #a0d1b5;
 }
-/* line 905, ../sass/ie.scss */
+/* line 246, ../sass/ie.scss */
 #wrapper #content .pers_info ul li a:hover,
 #wrapper #content .prof_skill ul li a:hover,
 #wrapper #content .get ul li a:hover,
@@ -1163,11 +1161,11 @@ a:active {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
   opacity: 0.5;
 }
-/* line 915, ../sass/ie.scss */
+/* line 256, ../sass/ie.scss */
 #wrapper #content .work ul {
   text-indent: 0em;
 }
-/* line 923, ../sass/ie.scss */
+/* line 264, ../sass/ie.scss */
 #wrapper #footer .intro_name span {
   height: 40px;
   width: 40px;
@@ -1182,7 +1180,7 @@ a:active {
   *display: inline;
   margin-left: 30px;
 }
-/* line 927, ../sass/ie.scss */
+/* line 268, ../sass/ie.scss */
 #wrapper #footer .intro_name a:hover {
   -webkit-animation-name: degs;
   animation-name: degs;
@@ -1205,7 +1203,7 @@ a:active {
   -moz-animation-iteration-count: 1;
   -o-animation-iteration-count: 1;
 }
-/* line 953, ../sass/ie.scss */
+/* line 294, ../sass/ie.scss */
 #wrapper #footer p:hover {
   -webkit-animation-name: smalls;
   animation-name: smalls;
@@ -1230,80 +1228,80 @@ a:active {
 }
 
 @media screen and (max-width: 960px) {
-  /* line 979, ../sass/ie.scss */
+  /* line 320, ../sass/ie.scss */
   #wrapper {
     width: 100%;
     margin: 30px auto;
   }
-  /* line 982, ../sass/ie.scss */
+  /* line 323, ../sass/ie.scss */
   #wrapper #header {
     width: 90%;
     margin: auto;
   }
-  /* line 985, ../sass/ie.scss */
+  /* line 326, ../sass/ie.scss */
   #wrapper #header .name {
     padding: 12px;
   }
-  /* line 987, ../sass/ie.scss */
+  /* line 328, ../sass/ie.scss */
   #wrapper #header .name .na {
     font-size: 1.4em;
   }
-  /* line 990, ../sass/ie.scss */
+  /* line 331, ../sass/ie.scss */
   #wrapper #header .name .web {
     font-size: 1em;
   }
-  /* line 995, ../sass/ie.scss */
+  /* line 336, ../sass/ie.scss */
   #wrapper #content {
     margin: 20px auto;
     width: 90%;
   }
-  /* line 998, ../sass/ie.scss */
+  /* line 339, ../sass/ie.scss */
   #wrapper #content .proj {
     width: 45%;
   }
-  /* line 1001, ../sass/ie.scss */
+  /* line 342, ../sass/ie.scss */
   #wrapper #content .pers_info,
   #wrapper #content .prof_skill,
   #wrapper #content .get,
   #wrapper #content .work {
     width: 50%;
   }
-  /* line 1008, ../sass/ie.scss */
+  /* line 349, ../sass/ie.scss */
   #wrapper #footer {
     width: 90%;
     margin: auto;
   }
 }
 @media screen and (max-width: 600px) {
-  /* line 1015, ../sass/ie.scss */
+  /* line 356, ../sass/ie.scss */
   #wrapper {
     width: 90%;
     min-width: 400px;
     margin: 30px auto;
   }
-  /* line 1019, ../sass/ie.scss */
+  /* line 360, ../sass/ie.scss */
   #wrapper #header {
     width: 90%;
     margin: auto;
   }
-  /* line 1022, ../sass/ie.scss */
+  /* line 363, ../sass/ie.scss */
   #wrapper #header .resu {
     display: none;
   }
-  /* line 1025, ../sass/ie.scss */
+  /* line 366, ../sass/ie.scss */
   #wrapper #header .name {
     float: left;
     padding: 12px;
   }
-  /* line 1028, ../sass/ie.scss */
+  /* line 369, ../sass/ie.scss */
   #wrapper #header .name .na {
     font-size: 1.8em;
   }
-  /* line 1031, ../sass/ie.scss */
+  /* line 372, ../sass/ie.scss */
   #wrapper #header .name .web {
     font-size: 0.8em;
   }
-  /* line 1035, ../sass/ie.scss */
+  /* line 376, ../sass/ie.scss */
   #wrapper #header .pic {
     float: right;
     width: 70px;
@@ -1311,59 +1309,59 @@ a:active {
     max-width: 100;
     display: block;
   }
-  /* line 1043, ../sass/ie.scss */
+  /* line 384, ../sass/ie.scss */
   #wrapper #content {
     margin: 20px auto;
     width: 90%;
   }
-  /* line 1046, ../sass/ie.scss */
+  /* line 387, ../sass/ie.scss */
   #wrapper #content .proj {
     width: 100%;
   }
-  /* line 1048, ../sass/ie.scss */
+  /* line 389, ../sass/ie.scss */
   #wrapper #content .proj .proj_head {
     text-align: center;
   }
-  /* line 1050, ../sass/ie.scss */
+  /* line 391, ../sass/ie.scss */
   #wrapper #content .proj .proj_head span {
     display: none;
   }
-  /* line 1055, ../sass/ie.scss */
+  /* line 396, ../sass/ie.scss */
   #wrapper #content .proj .proj_cont p {
     border-left: 0;
     padding-left: 0;
   }
-  /* line 1061, ../sass/ie.scss */
+  /* line 402, ../sass/ie.scss */
   #wrapper #content .pers_info,
   #wrapper #content .prof_skill,
   #wrapper #content .get,
   #wrapper #content .work {
     width: 90%;
   }
-  /* line 1066, ../sass/ie.scss */
+  /* line 407, ../sass/ie.scss */
   #wrapper #content .pers_info .inner_head,
   #wrapper #content .prof_skill .inner_head,
   #wrapper #content .get .inner_head,
   #wrapper #content .work .inner_head {
     text-align: center;
   }
-  /* line 1068, ../sass/ie.scss */
+  /* line 409, ../sass/ie.scss */
   #wrapper #content .pers_info .inner_head span,
   #wrapper #content .prof_skill .inner_head span,
   #wrapper #content .get .inner_head span,
   #wrapper #content .work .inner_head span {
     display: none;
   }
-  /* line 1074, ../sass/ie.scss */
+  /* line 415, ../sass/ie.scss */
   #wrapper #footer {
     width: 80%;
     margin: auto;
   }
-  /* line 1077, ../sass/ie.scss */
+  /* line 418, ../sass/ie.scss */
   #wrapper #footer .intro_name {
     text-align: center;
   }
-  /* line 1079, ../sass/ie.scss */
+  /* line 420, ../sass/ie.scss */
   #wrapper #footer .intro_name span {
     display: none;
   }

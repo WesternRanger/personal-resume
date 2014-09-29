@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f84b3c36-88cb-4804-bb36-699030f6bcad" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/animation.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/defined.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/setFirst.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/fcd617c15cd0096dc3834a00913870450c36113a/ie.scssc" afterPath="$PROJECT_DIR$/.sass-cache/fcd617c15cd0096dc3834a00913870450c36113a/ie.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/ie.css" afterPath="$PROJECT_DIR$/stylesheets/ie.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/ie.scss" afterPath="$PROJECT_DIR$/sass/ie.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/personal-resume.iml" afterPath="$PROJECT_DIR$/.idea/personal-resume.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="personal-resume.iws" />
@@ -30,7 +35,7 @@
       <file leaf-file-name="personal_resume.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/personal_resume.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="22" selection-start="713" selection-end="713" vertical-scroll-proportion="-4.5" vertical-offset="648" max-vertical-offset="5454">
+            <state line="3" column="26" selection-start="63" selection-end="63" vertical-scroll-proportion="-2.25" vertical-offset="0" max-vertical-offset="5454">
               <folding />
             </state>
           </provider>
@@ -39,11 +44,35 @@
       <file leaf-file-name="ie.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/ie.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1005" column="7" selection-start="28579" selection-end="28579" vertical-scroll-proportion="0.60294116" vertical-offset="26807" max-vertical-offset="28971">
-              <folding>
-                <element signature="e#29531#29675#0" expanded="false" />
-                <element signature="e#29693#29840#0" expanded="false" />
-              </folding>
+            <state line="18" column="31" selection-start="470" selection-end="470" vertical-scroll-proportion="0.33128834" vertical-offset="324" max-vertical-offset="11637">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="defined.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sass/defined.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="92" selection-start="281" selection-end="281" vertical-scroll-proportion="-1.5" vertical-offset="162" max-vertical-offset="1674">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setFirst.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sass/setFirst.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="1" selection-start="458" selection-end="458" vertical-scroll-proportion="-21.75" vertical-offset="0" max-vertical-offset="945">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="animation.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sass/animation.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="585" column="18" selection-start="15790" selection-end="15790" vertical-scroll-proportion="-17.333334" vertical-offset="15171" max-vertical-offset="16254">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -70,6 +99,10 @@
         <option value="D:/workHardOnJS/新统计测试.html" />
         <option value="$PROJECT_DIR$/js/personal.js" />
         <option value="$PROJECT_DIR$/personal_resume.html" />
+        <option value="$PROJECT_DIR$/sass/animation" />
+        <option value="$PROJECT_DIR$/sass/animation.scss" />
+        <option value="$PROJECT_DIR$/sass/setFirst.scss" />
+        <option value="$PROJECT_DIR$/sass/defined.scss" />
         <option value="$PROJECT_DIR$/sass/ie.scss" />
       </list>
     </option>
@@ -135,18 +168,10 @@
     <property name="options.lastSelected" value="preferences.general" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -155,6 +180,14 @@
       <option name="saveOutputToFile" value="false" />
       <option name="showConsoleOnStdErr" value="false" />
       <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
@@ -180,14 +213,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.09060956" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20497803" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20497803" sideWeight="0.90939045" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -196,7 +230,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -214,37 +247,10 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/personal_resume.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="25" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5454">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/ie.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="567" column="12" selection-start="13003" selection-end="13003" vertical-scroll-proportion="0.0" vertical-offset="15309" max-vertical-offset="16794">
-          <folding>
-            <element signature="e#29531#29675#0" expanded="false" />
-            <element signature="e#29693#29840#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/personal_resume.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="25" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0" vertical-offset="1782" max-vertical-offset="5454">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/ie.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="566" column="0" selection-start="12942" selection-end="12942" vertical-scroll-proportion="0.0" vertical-offset="15282" max-vertical-offset="15282">
-          <folding>
-            <element signature="e#29531#29675#0" expanded="false" />
-            <element signature="e#29693#29840#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -258,10 +264,7 @@
     <entry file="file://$PROJECT_DIR$/sass/ie.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="499" column="43" selection-start="11516" selection-end="11516" vertical-scroll-proportion="0.0" vertical-offset="12987" max-vertical-offset="20331">
-          <folding>
-            <element signature="e#29531#29675#0" expanded="false" />
-            <element signature="e#29693#29840#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -275,10 +278,7 @@
     <entry file="file://$PROJECT_DIR$/sass/ie.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="546" column="5" selection-start="12691" selection-end="12691" vertical-scroll-proportion="0.0" vertical-offset="14742" max-vertical-offset="16713">
-          <folding>
-            <element signature="e#29531#29675#0" expanded="false" />
-            <element signature="e#29693#29840#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -302,20 +302,52 @@
         <state line="81" column="13" selection-start="2406" selection-end="2529" vertical-scroll-proportion="0.4466912" vertical-offset="1701" max-vertical-offset="2565" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="24" selection-start="245" selection-end="245" vertical-scroll-proportion="0.34827587" vertical-offset="14" max-vertical-offset="837">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/setFirst.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="1" selection-start="458" selection-end="458" vertical-scroll-proportion="-21.75" vertical-offset="0" max-vertical-offset="945">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/ie.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="36828">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/personal_resume.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="22" selection-start="713" selection-end="713" vertical-scroll-proportion="-4.5" vertical-offset="648" max-vertical-offset="5454">
+        <state line="3" column="26" selection-start="63" selection-end="63" vertical-scroll-proportion="-2.25" vertical-offset="0" max-vertical-offset="5454">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/animation.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="585" column="18" selection-start="15790" selection-end="15790" vertical-scroll-proportion="-17.333334" vertical-offset="15171" max-vertical-offset="16254">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/defined.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="92" selection-start="281" selection-end="281" vertical-scroll-proportion="-1.5" vertical-offset="162" max-vertical-offset="1674">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/ie.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1005" column="7" selection-start="28579" selection-end="28579" vertical-scroll-proportion="0.60294116" vertical-offset="26807" max-vertical-offset="28971">
-          <folding>
-            <element signature="e#29531#29675#0" expanded="false" />
-            <element signature="e#29693#29840#0" expanded="false" />
-          </folding>
+        <state line="18" column="31" selection-start="470" selection-end="470" vertical-scroll-proportion="0.33128834" vertical-offset="324" max-vertical-offset="11637">
+          <folding />
         </state>
       </provider>
     </entry>

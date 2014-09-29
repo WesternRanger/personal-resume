@@ -1,0 +1,30 @@
+@import "compass/reset";
+@import "compass/css3";
+*{
+  padding:0;
+  margin:0;
+  font-family: microsoft yahei,tahoma,arial,\5b8b\4f53,sans-serif !important;
+  // font-family:microsoft yahei;
+}
+a{
+  text-decoration: none;
+  color: #85c51f;
+  &:hover{
+    color: #80bd1e;
+  }
+  &:active{
+    color: #7cb71d;
+  }
+}
+.clearfix{
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+.clearfix:after {
+  clear: both;
+}
