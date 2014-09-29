@@ -982,7 +982,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 9, ../sass/setFirst.scss */
 a {
   text-decoration: none;
-  color: #85c51f;
+  color: #c5ba18;
 }
 /* line 12, ../sass/setFirst.scss */
 a:hover {
@@ -1043,11 +1043,20 @@ a:active {
 }
 
 /* line 4, ../sass/ie.scss */
+body {
+  background: url("../img/bg.jpg");
+  -ms-background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+/* line 11, ../sass/ie.scss */
 #wrapper {
   width: 60%;
   margin: 80px auto;
 }
-/* line 8, ../sass/ie.scss */
+/* line 15, ../sass/ie.scss */
 #wrapper #header .resu {
   height: 150px;
   width: 150px;
@@ -1070,25 +1079,25 @@ a:active {
   vertical-align: middle;
   color: #fff;
 }
-/* line 23, ../sass/ie.scss */
+/* line 30, ../sass/ie.scss */
 #wrapper #header .resu .re {
   font-size: 4em;
-  animation: yDeg 2s linear 3s infinite alternate;
-  -webkit-animation: yDeg 2s linear 3s infinite alternate;
-  -moz-animation: yDeg 2s linear 3s infinite alternate;
-  -o-animation: yDeg 2s linear 3s infinite alternate;
-  -ms-animation: yDeg 2s linear 3s infinite alternate;
+  animation: yDeg 2s linear 4s infinite alternate;
+  -webkit-animation: yDeg 2s linear 4s infinite alternate;
+  -moz-animation: yDeg 2s linear 4s infinite alternate;
+  -o-animation: yDeg 2s linear 4s infinite alternate;
+  -ms-animation: yDeg 2s linear 4s infinite alternate;
 }
-/* line 27, ../sass/ie.scss */
+/* line 34, ../sass/ie.scss */
 #wrapper #header .resu .su {
   font-size: 2.5em;
-  animation: yDeg 2s linear 3s infinite alternate;
-  -webkit-animation: yDeg 2s linear 3s infinite alternate;
-  -moz-animation: yDeg 2s linear 3s infinite alternate;
-  -o-animation: yDeg 2s linear 3s infinite alternate;
-  -ms-animation: yDeg 2s linear 3s infinite alternate;
+  animation: yDeg 2s linear 4s infinite alternate;
+  -webkit-animation: yDeg 2s linear 4s infinite alternate;
+  -moz-animation: yDeg 2s linear 4s infinite alternate;
+  -o-animation: yDeg 2s linear 4s infinite alternate;
+  -ms-animation: yDeg 2s linear 4s infinite alternate;
 }
-/* line 32, ../sass/ie.scss */
+/* line 39, ../sass/ie.scss */
 #wrapper #header .name {
   display: inline-block;
   vertical-align: middle;
@@ -1097,27 +1106,27 @@ a:active {
   *display: inline;
   padding: 30px;
 }
-/* line 35, ../sass/ie.scss */
+/* line 42, ../sass/ie.scss */
 #wrapper #header .name .na {
   font-size: 2.5em;
   margin-bottom: 10px;
-  animation: xDeg 4s linear 3s infinite alternate;
-  -webkit-animation: xDeg 4s linear 3s infinite alternate;
-  -moz-animation: xDeg 4s linear 3s infinite alternate;
-  -o-animation: xDeg 4s linear 3s infinite alternate;
-  -ms-animation: xDeg 4s linear 3s infinite alternate;
+  animation: xDeg 4s linear 4s infinite alternate;
+  -webkit-animation: xDeg 4s linear 4s infinite alternate;
+  -moz-animation: xDeg 4s linear 4s infinite alternate;
+  -o-animation: xDeg 4s linear 4s infinite alternate;
+  -ms-animation: xDeg 4s linear 4s infinite alternate;
 }
-/* line 40, ../sass/ie.scss */
+/* line 47, ../sass/ie.scss */
 #wrapper #header .name .web {
   color: #666;
   font-size: 1.7em;
-  animation: _opacity 2s linear 0s infinite alternate;
-  -webkit-animation: _opacity 2s linear 0s infinite alternate;
-  -moz-animation: _opacity 2s linear 0s infinite alternate;
-  -o-animation: _opacity 2s linear 0s infinite alternate;
-  -ms-animation: _opacity 2s linear 0s infinite alternate;
+  animation: _opacity 2s linear 4s infinite alternate;
+  -webkit-animation: _opacity 2s linear 4s infinite alternate;
+  -moz-animation: _opacity 2s linear 4s infinite alternate;
+  -o-animation: _opacity 2s linear 4s infinite alternate;
+  -ms-animation: _opacity 2s linear 4s infinite alternate;
 }
-/* line 46, ../sass/ie.scss */
+/* line 53, ../sass/ie.scss */
 #wrapper #header .pic {
   display: inline-block;
   vertical-align: middle;
@@ -1134,17 +1143,17 @@ a:active {
   -o-animation: _run 4s linear 0s 1 alternate;
   -ms-animation: _run 4s linear 0s 1 alternate;
 }
-/* line 55, ../sass/ie.scss */
+/* line 62, ../sass/ie.scss */
 #wrapper #content {
   margin: 20px auto;
   width: 90%;
 }
-/* line 58, ../sass/ie.scss */
+/* line 65, ../sass/ie.scss */
 #wrapper #content .proj {
   width: 45%;
   float: left;
 }
-/* line 63, ../sass/ie.scss */
+/* line 70, ../sass/ie.scss */
 #wrapper #content .proj .proj_head span {
   height: 40px;
   width: 40px;
@@ -1159,7 +1168,7 @@ a:active {
   *display: inline;
   margin-left: -19px;
 }
-/* line 67, ../sass/ie.scss */
+/* line 74, ../sass/ie.scss */
 #wrapper #content .proj .proj_head a:hover {
   animation: degs 0.2s linear 0 1 alternate;
   -webkit-animation: degs 0.2s linear 0 1 alternate;
@@ -1167,15 +1176,15 @@ a:active {
   -o-animation: degs 0.2s linear 0 1 alternate;
   -ms-animation: degs 0.2s linear 0 1 alternate;
 }
-/* line 72, ../sass/ie.scss */
+/* line 79, ../sass/ie.scss */
 #wrapper #content .proj .proj_cont {
   margin-bottom: 10px;
 }
-/* line 74, ../sass/ie.scss */
+/* line 81, ../sass/ie.scss */
 #wrapper #content .proj .proj_cont .proj_name {
   margin-bottom: 10px;
 }
-/* line 76, ../sass/ie.scss */
+/* line 83, ../sass/ie.scss */
 #wrapper #content .proj .proj_cont .proj_name a {
   font-size: 1.2em;
   display: inline-block;
@@ -1184,7 +1193,7 @@ a:active {
   *zoom: 1;
   *display: inline;
 }
-/* line 80, ../sass/ie.scss */
+/* line 87, ../sass/ie.scss */
 #wrapper #content .proj .proj_cont .proj_name span {
   height: 20px;
   width: 20px;
@@ -1199,23 +1208,23 @@ a:active {
   *display: inline;
   margin-left: -8px;
 }
-/* line 83, ../sass/ie.scss */
+/* line 90, ../sass/ie.scss */
 #wrapper #content .proj .proj_cont .proj_name .url {
-  color: #a0d1b5;
+  color: #d19d3a;
 }
-/* line 85, ../sass/ie.scss */
+/* line 92, ../sass/ie.scss */
 #wrapper #content .proj .proj_cont .proj_name .url:hover {
   text-decoration: underline;
-  color: #b9d125;
+  color: #c1d140;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
   opacity: 0.5;
 }
-/* line 92, ../sass/ie.scss */
+/* line 99, ../sass/ie.scss */
 #wrapper #content .proj .proj_cont p {
   border-left: 5px solid #ffe56b;
   padding-left: 15px;
 }
-/* line 97, ../sass/ie.scss */
+/* line 104, ../sass/ie.scss */
 #wrapper #content .proj .proj_cont p span:hover {
   animation: smalls 0.7s linear 0 1 alternate;
   -webkit-animation: smalls 0.7s linear 0 1 alternate;
@@ -1223,7 +1232,7 @@ a:active {
   -o-animation: smalls 0.7s linear 0 1 alternate;
   -ms-animation: smalls 0.7s linear 0 1 alternate;
 }
-/* line 112, ../sass/ie.scss */
+/* line 119, ../sass/ie.scss */
 #wrapper #content .pers_info .inner_head span,
 #wrapper #content .prof_skill .inner_head span,
 #wrapper #content .get .inner_head span,
@@ -1241,7 +1250,7 @@ a:active {
   *display: inline;
   margin-left: -8px;
 }
-/* line 116, ../sass/ie.scss */
+/* line 123, ../sass/ie.scss */
 #wrapper #content .pers_info .inner_head a:hover,
 #wrapper #content .prof_skill .inner_head a:hover,
 #wrapper #content .get .inner_head a:hover,
@@ -1252,7 +1261,7 @@ a:active {
   -o-animation: degs 0.2s linear 0 1 alternate;
   -ms-animation: degs 0.2s linear 0 1 alternate;
 }
-/* line 124, ../sass/ie.scss */
+/* line 131, ../sass/ie.scss */
 #wrapper #content .pers_info ul li:hover,
 #wrapper #content .prof_skill ul li:hover,
 #wrapper #content .get ul li:hover,
@@ -1263,7 +1272,7 @@ a:active {
   -o-animation: smalls 0.7s linear 0 1 alternate;
   -ms-animation: smalls 0.7s linear 0 1 alternate;
 }
-/* line 127, ../sass/ie.scss */
+/* line 134, ../sass/ie.scss */
 #wrapper #content .pers_info ul li span,
 #wrapper #content .prof_skill ul li span,
 #wrapper #content .get ul li span,
@@ -1281,28 +1290,28 @@ a:active {
   *display: inline;
   margin-left: 0;
 }
-/* line 130, ../sass/ie.scss */
+/* line 137, ../sass/ie.scss */
 #wrapper #content .pers_info ul li a,
 #wrapper #content .prof_skill ul li a,
 #wrapper #content .get ul li a,
 #wrapper #content .work ul li a {
-  color: #a0d1b5;
+  color: #d19d3a;
 }
-/* line 132, ../sass/ie.scss */
+/* line 139, ../sass/ie.scss */
 #wrapper #content .pers_info ul li a:hover,
 #wrapper #content .prof_skill ul li a:hover,
 #wrapper #content .get ul li a:hover,
 #wrapper #content .work ul li a:hover {
   text-decoration: underline;
-  color: #b9d125;
+  color: #c1d140;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
   opacity: 0.5;
 }
-/* line 142, ../sass/ie.scss */
+/* line 149, ../sass/ie.scss */
 #wrapper #content .work ul {
   text-indent: 0em;
 }
-/* line 150, ../sass/ie.scss */
+/* line 157, ../sass/ie.scss */
 #wrapper #footer .intro_name span {
   height: 40px;
   width: 40px;
@@ -1317,7 +1326,7 @@ a:active {
   *display: inline;
   margin-left: 30px;
 }
-/* line 154, ../sass/ie.scss */
+/* line 161, ../sass/ie.scss */
 #wrapper #footer .intro_name a:hover {
   animation: degs 0.2s linear 0 1 alternate;
   -webkit-animation: degs 0.2s linear 0 1 alternate;
@@ -1325,7 +1334,7 @@ a:active {
   -o-animation: degs 0.2s linear 0 1 alternate;
   -ms-animation: degs 0.2s linear 0 1 alternate;
 }
-/* line 161, ../sass/ie.scss */
+/* line 168, ../sass/ie.scss */
 #wrapper #footer p:hover {
   animation: smalls 0.7s linear 0 1 alternate;
   -webkit-animation: smalls 0.7s linear 0 1 alternate;
@@ -1335,80 +1344,80 @@ a:active {
 }
 
 @media screen and (max-width: 960px) {
-  /* line 168, ../sass/ie.scss */
+  /* line 175, ../sass/ie.scss */
   #wrapper {
     width: 100%;
     margin: 30px auto;
   }
-  /* line 171, ../sass/ie.scss */
+  /* line 178, ../sass/ie.scss */
   #wrapper #header {
     width: 90%;
     margin: auto;
   }
-  /* line 174, ../sass/ie.scss */
+  /* line 181, ../sass/ie.scss */
   #wrapper #header .name {
     padding: 12px;
   }
-  /* line 176, ../sass/ie.scss */
+  /* line 183, ../sass/ie.scss */
   #wrapper #header .name .na {
     font-size: 1.4em;
   }
-  /* line 179, ../sass/ie.scss */
+  /* line 186, ../sass/ie.scss */
   #wrapper #header .name .web {
     font-size: 1em;
   }
-  /* line 184, ../sass/ie.scss */
+  /* line 191, ../sass/ie.scss */
   #wrapper #content {
     margin: 20px auto;
     width: 90%;
   }
-  /* line 187, ../sass/ie.scss */
+  /* line 194, ../sass/ie.scss */
   #wrapper #content .proj {
     width: 45%;
   }
-  /* line 190, ../sass/ie.scss */
+  /* line 197, ../sass/ie.scss */
   #wrapper #content .pers_info,
   #wrapper #content .prof_skill,
   #wrapper #content .get,
   #wrapper #content .work {
     width: 50%;
   }
-  /* line 197, ../sass/ie.scss */
+  /* line 204, ../sass/ie.scss */
   #wrapper #footer {
     width: 90%;
     margin: auto;
   }
 }
 @media screen and (max-width: 600px) {
-  /* line 204, ../sass/ie.scss */
+  /* line 211, ../sass/ie.scss */
   #wrapper {
     width: 90%;
     min-width: 400px;
     margin: 30px auto;
   }
-  /* line 208, ../sass/ie.scss */
+  /* line 215, ../sass/ie.scss */
   #wrapper #header {
     width: 90%;
     margin: auto;
   }
-  /* line 211, ../sass/ie.scss */
+  /* line 218, ../sass/ie.scss */
   #wrapper #header .resu {
     display: none;
   }
-  /* line 214, ../sass/ie.scss */
+  /* line 221, ../sass/ie.scss */
   #wrapper #header .name {
     float: left;
     padding: 12px;
   }
-  /* line 217, ../sass/ie.scss */
+  /* line 224, ../sass/ie.scss */
   #wrapper #header .name .na {
     font-size: 1.8em;
   }
-  /* line 220, ../sass/ie.scss */
+  /* line 227, ../sass/ie.scss */
   #wrapper #header .name .web {
     font-size: 0.8em;
   }
-  /* line 224, ../sass/ie.scss */
+  /* line 231, ../sass/ie.scss */
   #wrapper #header .pic {
     float: right;
     width: 70px;
@@ -1416,59 +1425,59 @@ a:active {
     max-width: 100;
     display: block;
   }
-  /* line 232, ../sass/ie.scss */
+  /* line 239, ../sass/ie.scss */
   #wrapper #content {
     margin: 20px auto;
     width: 90%;
   }
-  /* line 235, ../sass/ie.scss */
+  /* line 242, ../sass/ie.scss */
   #wrapper #content .proj {
     width: 100%;
   }
-  /* line 237, ../sass/ie.scss */
+  /* line 244, ../sass/ie.scss */
   #wrapper #content .proj .proj_head {
     text-align: center;
   }
-  /* line 239, ../sass/ie.scss */
+  /* line 246, ../sass/ie.scss */
   #wrapper #content .proj .proj_head span {
     display: none;
   }
-  /* line 244, ../sass/ie.scss */
+  /* line 251, ../sass/ie.scss */
   #wrapper #content .proj .proj_cont p {
     border-left: 0;
     padding-left: 0;
   }
-  /* line 250, ../sass/ie.scss */
+  /* line 257, ../sass/ie.scss */
   #wrapper #content .pers_info,
   #wrapper #content .prof_skill,
   #wrapper #content .get,
   #wrapper #content .work {
     width: 90%;
   }
-  /* line 255, ../sass/ie.scss */
+  /* line 262, ../sass/ie.scss */
   #wrapper #content .pers_info .inner_head,
   #wrapper #content .prof_skill .inner_head,
   #wrapper #content .get .inner_head,
   #wrapper #content .work .inner_head {
     text-align: center;
   }
-  /* line 257, ../sass/ie.scss */
+  /* line 264, ../sass/ie.scss */
   #wrapper #content .pers_info .inner_head span,
   #wrapper #content .prof_skill .inner_head span,
   #wrapper #content .get .inner_head span,
   #wrapper #content .work .inner_head span {
     display: none;
   }
-  /* line 263, ../sass/ie.scss */
+  /* line 270, ../sass/ie.scss */
   #wrapper #footer {
     width: 80%;
     margin: auto;
   }
-  /* line 266, ../sass/ie.scss */
+  /* line 273, ../sass/ie.scss */
   #wrapper #footer .intro_name {
     text-align: center;
   }
-  /* line 268, ../sass/ie.scss */
+  /* line 275, ../sass/ie.scss */
   #wrapper #footer .intro_name span {
     display: none;
   }

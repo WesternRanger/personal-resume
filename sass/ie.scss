@@ -1,6 +1,13 @@
 @import "animation.scss";
 @import "setFirst.scss";
 @import "defined.scss";
+body{
+  background: url("../img/bg.jpg");
+  -ms-background-size:cover;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+}
 #wrapper{
 	width:60%;
 	margin:80px auto;
@@ -22,11 +29,11 @@
 			color:#fff;
 			.re{
 				font-size: 4em;
-              @include _animation(yDeg,2s,linear,3s,infinite,alternate);
+              @include _animation(yDeg,2s,linear,4s,infinite,alternate);
 			}
 			.su{
 				font-size: 2.5em;
-              @include _animation(yDeg,2s,linear,3s,infinite,alternate);
+              @include _animation(yDeg,2s,linear,4s,infinite,alternate);
 			}
 		}
 		.name{
@@ -35,12 +42,12 @@
 			.na{
 				font-size: 2.5em;
 				margin-bottom: 10px;
-                @include _animation(xDeg,4s,linear,3s,infinite,alternate);
+                @include _animation(xDeg,4s,linear,4s,infinite,alternate);
 			}
 			.web{
 				color:#666;
 				font-size: 1.7em;
-                @include _opacity(_opacity,2s,linear,0s,infinite,alternate);
+                @include _opacity(_opacity,2s,linear,4s,infinite,alternate);
 			}
 		}
 		.pic{
@@ -81,10 +88,10 @@
 						@include dot(20px,#d8ff66,-8px);
 					}
                   .url{
-                    color: #a0d1b5;
+                    color: #d19d3a;
                     &:hover{
                       text-decoration: underline;
-                      color: #b9d125;
+                      color: #c1d140;
                       @include opacity(0.5);
                     }
                   }
@@ -128,10 +135,10 @@
                   @include dot(13px,#d8ff66,0);
                 }
                 a{
-                  color: #a0d1b5;
+                  color: #d19d3a;
                   &:hover{
                     text-decoration: underline;
-                    color: #b9d125;
+                    color: #c1d140;
                     @include opacity(0.5);
                   }
                 }
