@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f84b3c36-88cb-4804-bb36-699030f6bcad" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/ie.css" afterPath="$PROJECT_DIR$/stylesheets/ie.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/ie.scss" afterPath="$PROJECT_DIR$/sass/ie.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/personal_resume.html" afterPath="$PROJECT_DIR$/personal_resume.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="personal-resume.iws" />
@@ -30,7 +29,7 @@
       <file leaf-file-name="personal_resume.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/personal_resume.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="18" selection-start="430" selection-end="430" vertical-scroll-proportion="-5.25" vertical-offset="324" max-vertical-offset="5454">
+            <state line="6" column="7" selection-start="144" selection-end="144" vertical-scroll-proportion="-4.5" vertical-offset="0" max-vertical-offset="5049">
               <folding />
             </state>
           </provider>
@@ -39,7 +38,7 @@
       <file leaf-file-name="ie.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/ie.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="162" column="36" selection-start="3620" selection-end="3620" vertical-scroll-proportion="-3.1194854" vertical-offset="6071" max-vertical-offset="7749">
+            <state line="5" column="28" selection-start="145" selection-end="145" vertical-scroll-proportion="0.10246679" vertical-offset="81" max-vertical-offset="7749">
               <folding />
             </state>
           </provider>
@@ -96,8 +95,8 @@
         <option value="$PROJECT_DIR$/sass/animation" />
         <option value="$PROJECT_DIR$/sass/defined.scss" />
         <option value="$PROJECT_DIR$/sass/animation.scss" />
-        <option value="$PROJECT_DIR$/personal_resume.html" />
         <option value="$PROJECT_DIR$/sass/setFirst.scss" />
+        <option value="$PROJECT_DIR$/personal_resume.html" />
         <option value="$PROJECT_DIR$/sass/ie.scss" />
       </list>
     </option>
@@ -134,7 +133,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -155,6 +153,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -208,14 +207,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20497803" sideWeight="0.90939045" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20476545" sideWeight="0.90939045" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -242,6 +241,13 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sass/animation.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="724" column="35" selection-start="18251" selection-end="18251" vertical-scroll-proportion="0.0" vertical-offset="18194" max-vertical-offset="22356">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sass/ie.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="566" column="0" selection-start="12942" selection-end="12942" vertical-scroll-proportion="0.0" vertical-offset="15282" max-vertical-offset="15282">
@@ -275,11 +281,6 @@
         <state line="546" column="5" selection-start="12691" selection-end="12691" vertical-scroll-proportion="0.0" vertical-offset="14742" max-vertical-offset="16713">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/大三的WebStormWorkSpace/jsProject/htmlExam.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="62" selection-start="1004" selection-end="1054" vertical-scroll-proportion="2.7297795" vertical-offset="0" max-vertical-offset="4482" />
       </provider>
     </entry>
     <entry file="file://D:/workHardOnJS/人人网面试题.html">
@@ -330,14 +331,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/personal_resume.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="18" selection-start="430" selection-end="430" vertical-scroll-proportion="-5.25" vertical-offset="324" max-vertical-offset="5454">
+        <state line="6" column="7" selection-start="144" selection-end="144" vertical-scroll-proportion="-4.5" vertical-offset="0" max-vertical-offset="5049">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/ie.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="162" column="36" selection-start="3620" selection-end="3620" vertical-scroll-proportion="-3.1194854" vertical-offset="6071" max-vertical-offset="7749">
+        <state line="5" column="28" selection-start="145" selection-end="145" vertical-scroll-proportion="0.10246679" vertical-offset="81" max-vertical-offset="7749">
           <folding />
         </state>
       </provider>
