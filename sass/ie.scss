@@ -2,12 +2,8 @@
 @import "setFirst.scss";
 @import "defined.scss";
 body{
-  background: url("../img/bg.jpg");
-  -ms-background-size:cover;
-  -webkit-background-size:cover;
-  -moz-background-size:cover;
-  -o-background-size:cover;
-  font-size:100%;
+  @include gradientlinear(0%,100%,#d9eff5,#e9f5f9);
+  font-size:104%;
 }
 #wrapper{
 	width:60%;

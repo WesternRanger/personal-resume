@@ -1011,7 +1011,7 @@ a:active {
   clear: both;
 }
 
-/* line 30, ../sass/defined.scss */
+/* line 42, ../sass/defined.scss */
 .head, #wrapper #content .proj .proj_head, #wrapper #content .pers_info .inner_head,
 #wrapper #content .prof_skill .inner_head,
 #wrapper #content .get .inner_head,
@@ -1021,7 +1021,7 @@ a:active {
   margin-bottom: 10px;
 }
 
-/* line 35, ../sass/defined.scss */
+/* line 47, ../sass/defined.scss */
 .left_box, #wrapper #content .pers_info,
 #wrapper #content .prof_skill,
 #wrapper #content .get,
@@ -1031,7 +1031,7 @@ a:active {
   margin-bottom: 10px;
 }
 
-/* line 40, ../sass/defined.scss */
+/* line 52, ../sass/defined.scss */
 .text_style, #wrapper #content .proj .proj_cont p, #wrapper #content .pers_info ul,
 #wrapper #content .prof_skill ul,
 #wrapper #content .get ul,
@@ -1044,20 +1044,30 @@ a:active {
 
 /* line 4, ../sass/ie.scss */
 body {
-  background: url("../img/bg.jpg");
-  -ms-background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  font-size: 100%;
+  background: #d9eff5;
+  /* Old browsers */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: -moz-linear-gradient(top, #d9eff5 0%, #e9f5f9 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d9eff5), color-stop(100%, #e9f5f9));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #d9eff5 0%, #e9f5f9 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #d9eff5 0%, #e9f5f9 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #d9eff5 0%, #e9f5f9 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #d9eff5 0%, #e9f5f9 100%);
+  /* W3C */
+  font-size: 104%;
 }
 
-/* line 12, ../sass/ie.scss */
+/* line 8, ../sass/ie.scss */
 #wrapper {
   width: 60%;
   margin: 80px auto;
 }
-/* line 16, ../sass/ie.scss */
+/* line 12, ../sass/ie.scss */
 #wrapper #header .resu {
   height: 150px;
   width: 150px;
@@ -1080,7 +1090,7 @@ body {
   vertical-align: middle;
   color: #fff;
 }
-/* line 31, ../sass/ie.scss */
+/* line 27, ../sass/ie.scss */
 #wrapper #header .resu .re {
   font-size: 4em;
   animation: yDeg 2s linear 4s infinite alternate;
@@ -1089,7 +1099,7 @@ body {
   -o-animation: yDeg 2s linear 4s infinite alternate;
   -ms-animation: yDeg 2s linear 4s infinite alternate;
 }
-/* line 35, ../sass/ie.scss */
+/* line 31, ../sass/ie.scss */
 #wrapper #header .resu .su {
   font-size: 2.5em;
   animation: yDeg 2s linear 4s infinite alternate;
@@ -1098,7 +1108,7 @@ body {
   -o-animation: yDeg 2s linear 4s infinite alternate;
   -ms-animation: yDeg 2s linear 4s infinite alternate;
 }
-/* line 40, ../sass/ie.scss */
+/* line 36, ../sass/ie.scss */
 #wrapper #header .name {
   display: inline-block;
   vertical-align: middle;
@@ -1107,7 +1117,7 @@ body {
   *display: inline;
   padding: 30px;
 }
-/* line 43, ../sass/ie.scss */
+/* line 39, ../sass/ie.scss */
 #wrapper #header .name .na {
   font-size: 2.5em;
   margin-bottom: 10px;
@@ -1117,7 +1127,7 @@ body {
   -o-animation: xDeg 4s linear 4s infinite alternate;
   -ms-animation: xDeg 4s linear 4s infinite alternate;
 }
-/* line 48, ../sass/ie.scss */
+/* line 44, ../sass/ie.scss */
 #wrapper #header .name .web {
   color: #666;
   font-size: 1.7em;
@@ -1127,7 +1137,7 @@ body {
   -o-animation: _opacity 2s linear 4s infinite alternate;
   -ms-animation: _opacity 2s linear 4s infinite alternate;
 }
-/* line 54, ../sass/ie.scss */
+/* line 50, ../sass/ie.scss */
 #wrapper #header .pic {
   display: inline-block;
   vertical-align: middle;
@@ -1144,17 +1154,17 @@ body {
   -o-animation: _run 4s linear 0s 1 alternate;
   -ms-animation: _run 4s linear 0s 1 alternate;
 }
-/* line 63, ../sass/ie.scss */
+/* line 59, ../sass/ie.scss */
 #wrapper #content {
   margin: 20px auto;
   width: 90%;
 }
-/* line 66, ../sass/ie.scss */
+/* line 62, ../sass/ie.scss */
 #wrapper #content .proj {
   width: 45%;
   float: left;
 }
-/* line 71, ../sass/ie.scss */
+/* line 67, ../sass/ie.scss */
 #wrapper #content .proj .proj_head span {
   height: 40px;
   width: 40px;
@@ -1169,7 +1179,7 @@ body {
   *display: inline;
   margin-left: -19px;
 }
-/* line 75, ../sass/ie.scss */
+/* line 71, ../sass/ie.scss */
 #wrapper #content .proj .proj_head a:hover {
   animation: degs 0.2s linear 0 1 alternate;
   -webkit-animation: degs 0.2s linear 0 1 alternate;
@@ -1177,15 +1187,15 @@ body {
   -o-animation: degs 0.2s linear 0 1 alternate;
   -ms-animation: degs 0.2s linear 0 1 alternate;
 }
-/* line 80, ../sass/ie.scss */
+/* line 76, ../sass/ie.scss */
 #wrapper #content .proj .proj_cont {
   margin-bottom: 10px;
 }
-/* line 82, ../sass/ie.scss */
+/* line 78, ../sass/ie.scss */
 #wrapper #content .proj .proj_cont .proj_name {
   margin-bottom: 10px;
 }
-/* line 84, ../sass/ie.scss */
+/* line 80, ../sass/ie.scss */
 #wrapper #content .proj .proj_cont .proj_name a {
   font-size: 1.2em;
   display: inline-block;
@@ -1194,7 +1204,7 @@ body {
   *zoom: 1;
   *display: inline;
 }
-/* line 88, ../sass/ie.scss */
+/* line 84, ../sass/ie.scss */
 #wrapper #content .proj .proj_cont .proj_name span {
   height: 20px;
   width: 20px;
@@ -1209,23 +1219,23 @@ body {
   *display: inline;
   margin-left: -8px;
 }
-/* line 91, ../sass/ie.scss */
+/* line 87, ../sass/ie.scss */
 #wrapper #content .proj .proj_cont .proj_name .url {
   color: #d19d3a;
 }
-/* line 93, ../sass/ie.scss */
+/* line 89, ../sass/ie.scss */
 #wrapper #content .proj .proj_cont .proj_name .url:hover {
   text-decoration: underline;
   color: #c1d140;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
   opacity: 0.5;
 }
-/* line 100, ../sass/ie.scss */
+/* line 96, ../sass/ie.scss */
 #wrapper #content .proj .proj_cont p {
   border-left: 5px solid #ffe56b;
   padding-left: 15px;
 }
-/* line 105, ../sass/ie.scss */
+/* line 101, ../sass/ie.scss */
 #wrapper #content .proj .proj_cont p span:hover {
   animation: smalls 0.7s linear 0 1 alternate;
   -webkit-animation: smalls 0.7s linear 0 1 alternate;
@@ -1233,7 +1243,7 @@ body {
   -o-animation: smalls 0.7s linear 0 1 alternate;
   -ms-animation: smalls 0.7s linear 0 1 alternate;
 }
-/* line 120, ../sass/ie.scss */
+/* line 116, ../sass/ie.scss */
 #wrapper #content .pers_info .inner_head span,
 #wrapper #content .prof_skill .inner_head span,
 #wrapper #content .get .inner_head span,
@@ -1251,7 +1261,7 @@ body {
   *display: inline;
   margin-left: -8px;
 }
-/* line 124, ../sass/ie.scss */
+/* line 120, ../sass/ie.scss */
 #wrapper #content .pers_info .inner_head a:hover,
 #wrapper #content .prof_skill .inner_head a:hover,
 #wrapper #content .get .inner_head a:hover,
@@ -1262,7 +1272,7 @@ body {
   -o-animation: degs 0.2s linear 0 1 alternate;
   -ms-animation: degs 0.2s linear 0 1 alternate;
 }
-/* line 132, ../sass/ie.scss */
+/* line 128, ../sass/ie.scss */
 #wrapper #content .pers_info ul li:hover,
 #wrapper #content .prof_skill ul li:hover,
 #wrapper #content .get ul li:hover,
@@ -1273,7 +1283,7 @@ body {
   -o-animation: smalls 0.7s linear 0 1 alternate;
   -ms-animation: smalls 0.7s linear 0 1 alternate;
 }
-/* line 135, ../sass/ie.scss */
+/* line 131, ../sass/ie.scss */
 #wrapper #content .pers_info ul li span,
 #wrapper #content .prof_skill ul li span,
 #wrapper #content .get ul li span,
@@ -1291,14 +1301,14 @@ body {
   *display: inline;
   margin-left: 0;
 }
-/* line 138, ../sass/ie.scss */
+/* line 134, ../sass/ie.scss */
 #wrapper #content .pers_info ul li a,
 #wrapper #content .prof_skill ul li a,
 #wrapper #content .get ul li a,
 #wrapper #content .work ul li a {
   color: #d19d3a;
 }
-/* line 140, ../sass/ie.scss */
+/* line 136, ../sass/ie.scss */
 #wrapper #content .pers_info ul li a:hover,
 #wrapper #content .prof_skill ul li a:hover,
 #wrapper #content .get ul li a:hover,
@@ -1308,11 +1318,11 @@ body {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
   opacity: 0.5;
 }
-/* line 150, ../sass/ie.scss */
+/* line 146, ../sass/ie.scss */
 #wrapper #content .work ul {
   text-indent: 0em;
 }
-/* line 158, ../sass/ie.scss */
+/* line 154, ../sass/ie.scss */
 #wrapper #footer .intro_name span {
   height: 40px;
   width: 40px;
@@ -1327,7 +1337,7 @@ body {
   *display: inline;
   margin-left: 30px;
 }
-/* line 162, ../sass/ie.scss */
+/* line 158, ../sass/ie.scss */
 #wrapper #footer .intro_name a:hover {
   animation: degs 0.2s linear 0 1 alternate;
   -webkit-animation: degs 0.2s linear 0 1 alternate;
@@ -1335,7 +1345,7 @@ body {
   -o-animation: degs 0.2s linear 0 1 alternate;
   -ms-animation: degs 0.2s linear 0 1 alternate;
 }
-/* line 169, ../sass/ie.scss */
+/* line 165, ../sass/ie.scss */
 #wrapper #footer p:hover {
   animation: smalls 0.7s linear 0 1 alternate;
   -webkit-animation: smalls 0.7s linear 0 1 alternate;
@@ -1345,80 +1355,80 @@ body {
 }
 
 @media screen and (max-width: 960px) {
-  /* line 176, ../sass/ie.scss */
+  /* line 172, ../sass/ie.scss */
   #wrapper {
     width: 100%;
     margin: 30px auto;
   }
-  /* line 179, ../sass/ie.scss */
+  /* line 175, ../sass/ie.scss */
   #wrapper #header {
     width: 90%;
     margin: auto;
   }
-  /* line 182, ../sass/ie.scss */
+  /* line 178, ../sass/ie.scss */
   #wrapper #header .name {
     padding: 12px;
   }
-  /* line 184, ../sass/ie.scss */
+  /* line 180, ../sass/ie.scss */
   #wrapper #header .name .na {
     font-size: 1.4em;
   }
-  /* line 187, ../sass/ie.scss */
+  /* line 183, ../sass/ie.scss */
   #wrapper #header .name .web {
     font-size: 1em;
   }
-  /* line 192, ../sass/ie.scss */
+  /* line 188, ../sass/ie.scss */
   #wrapper #content {
     margin: 20px auto;
     width: 90%;
   }
-  /* line 195, ../sass/ie.scss */
+  /* line 191, ../sass/ie.scss */
   #wrapper #content .proj {
     width: 45%;
   }
-  /* line 198, ../sass/ie.scss */
+  /* line 194, ../sass/ie.scss */
   #wrapper #content .pers_info,
   #wrapper #content .prof_skill,
   #wrapper #content .get,
   #wrapper #content .work {
     width: 50%;
   }
-  /* line 205, ../sass/ie.scss */
+  /* line 201, ../sass/ie.scss */
   #wrapper #footer {
     width: 90%;
     margin: auto;
   }
 }
 @media screen and (max-width: 600px) {
-  /* line 212, ../sass/ie.scss */
+  /* line 208, ../sass/ie.scss */
   #wrapper {
     width: 90%;
     min-width: 400px;
     margin: 30px auto;
   }
-  /* line 216, ../sass/ie.scss */
+  /* line 212, ../sass/ie.scss */
   #wrapper #header {
     width: 90%;
     margin: auto;
   }
-  /* line 219, ../sass/ie.scss */
+  /* line 215, ../sass/ie.scss */
   #wrapper #header .resu {
     display: none;
   }
-  /* line 222, ../sass/ie.scss */
+  /* line 218, ../sass/ie.scss */
   #wrapper #header .name {
     float: left;
     padding: 12px;
   }
-  /* line 225, ../sass/ie.scss */
+  /* line 221, ../sass/ie.scss */
   #wrapper #header .name .na {
     font-size: 1.8em;
   }
-  /* line 228, ../sass/ie.scss */
+  /* line 224, ../sass/ie.scss */
   #wrapper #header .name .web {
     font-size: 0.8em;
   }
-  /* line 232, ../sass/ie.scss */
+  /* line 228, ../sass/ie.scss */
   #wrapper #header .pic {
     float: right;
     width: 70px;
@@ -1426,59 +1436,59 @@ body {
     max-width: 100px;
     display: block;
   }
-  /* line 240, ../sass/ie.scss */
+  /* line 236, ../sass/ie.scss */
   #wrapper #content {
     margin: 20px auto;
     width: 90%;
   }
-  /* line 243, ../sass/ie.scss */
+  /* line 239, ../sass/ie.scss */
   #wrapper #content .proj {
     width: 100%;
   }
-  /* line 245, ../sass/ie.scss */
+  /* line 241, ../sass/ie.scss */
   #wrapper #content .proj .proj_head {
     text-align: center;
   }
-  /* line 247, ../sass/ie.scss */
+  /* line 243, ../sass/ie.scss */
   #wrapper #content .proj .proj_head span {
     display: none;
   }
-  /* line 252, ../sass/ie.scss */
+  /* line 248, ../sass/ie.scss */
   #wrapper #content .proj .proj_cont p {
     border-left: 0;
     padding-left: 0;
   }
-  /* line 258, ../sass/ie.scss */
+  /* line 254, ../sass/ie.scss */
   #wrapper #content .pers_info,
   #wrapper #content .prof_skill,
   #wrapper #content .get,
   #wrapper #content .work {
     width: 90%;
   }
-  /* line 263, ../sass/ie.scss */
+  /* line 259, ../sass/ie.scss */
   #wrapper #content .pers_info .inner_head,
   #wrapper #content .prof_skill .inner_head,
   #wrapper #content .get .inner_head,
   #wrapper #content .work .inner_head {
     text-align: center;
   }
-  /* line 265, ../sass/ie.scss */
+  /* line 261, ../sass/ie.scss */
   #wrapper #content .pers_info .inner_head span,
   #wrapper #content .prof_skill .inner_head span,
   #wrapper #content .get .inner_head span,
   #wrapper #content .work .inner_head span {
     display: none;
   }
-  /* line 271, ../sass/ie.scss */
+  /* line 267, ../sass/ie.scss */
   #wrapper #footer {
     width: 80%;
     margin: auto;
   }
-  /* line 274, ../sass/ie.scss */
+  /* line 270, ../sass/ie.scss */
   #wrapper #footer .intro_name {
     text-align: center;
   }
-  /* line 276, ../sass/ie.scss */
+  /* line 272, ../sass/ie.scss */
   #wrapper #footer .intro_name span {
     display: none;
   }
