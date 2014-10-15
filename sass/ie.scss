@@ -3,7 +3,7 @@
 @import "defined.scss";
 body{
   @include gradientlinear(0%,100%,#d9eff5,#e9f5f9);
-  font-size:104%;
+  font-size:100%;
 }
 #wrapper{
 	width:60%;

@@ -1059,7 +1059,7 @@ body {
   /* IE10+ */
   background: linear-gradient(to bottom, #d9eff5 0%, #e9f5f9 100%);
   /* W3C */
-  font-size: 104%;
+  font-size: 100%;
 }
 
 /* line 8, ../sass/ie.scss */
