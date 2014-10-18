@@ -2,7 +2,7 @@
 @import "setFirst.scss";
 @import "defined.scss";
 body{
-  @include gradientlinear(0%,100%,#d9eff5,#e9f5f9);
+  @include gradientlinear(0%,100%,#e6f4f8,#e9f5f9);
   font-size:100%;
 }
 #wrapper{
@@ -65,7 +65,7 @@ body{
 			.proj_head{
 				@extend .head;
 				span{
-					@include dot(40px,#e0ff0e,-19px);
+					@include dot(40px, #a4ff46,-19px);
 				}
                 a{
                   &:hover{
@@ -114,7 +114,7 @@ body{
 			.inner_head{
 				@extend .head;
 				span{
-					@include dot(40px);
+					@include dot(40px,#a4ff46);
 				}
               a{
                 &:hover{
@@ -152,7 +152,7 @@ body{
 		.intro_name{
 			@extend .head;
 			span{
-				@include dot(40px,#e0ff0e,30px);
+				@include dot(40px,#a4ff46,30px);
 			}
           a{
             &:hover{
